@@ -6,20 +6,20 @@
 <h3> Features of EC2</h3>
 
 - Virtual computing environment. 
-- Configurations of CPU, memory, storage, and networking capacity for your instances, known as instance types, with diverse configuration options.
+- Configuration of CPU, memory, storage, and networking capacity for our instances, known as instance types, with diverse configuration options.
 - Elastic IP addresses.
 - Multiple physical locations for our resources, with different availability timezones and regions.  
 - Security; such as firewalls and managing IP addresses ranges, ports and protocols through security groups. Secure login information, with private and public key.  
 - Creating our own private network, through virtual private cloud service.  
 - Persistant storage options i.e Elastic block storage. 
   
-<h3> Amazon Instances Types<h3> 
+<h3> Amazon Instances Types</h3> 
 Amazon provides variety of Instances types which are optimized for difference use cases. Instances types containes diverse combinations and types of CPU, memory , network
 capacity with flexibility that gives us mixture of different resources to run our application.
 
 These are following instances types.
 
-<h3> General Purpose<h3> 
+<h3> General Purpose</h3> 
 
   
   
