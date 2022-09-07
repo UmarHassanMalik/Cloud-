@@ -20,6 +20,7 @@ capacity with flexibility that gives us mixture of different resources to run ou
 These are following instances types.
 
 <h3> General Purpose</h3> 
+  
 
   
   
