@@ -26,10 +26,23 @@ General purpose instances provide a balance of compute, memory and networking re
 <h3> Computer Optimized </h3>  
 Compute Optimized instances are ideal for compute bound applications that benefit from high performance processors. Instances belonging to this family are well suited for batch processing workloads, media transcoding, high performance web servers, high performance computing (HPC), scientific modeling, dedicated gaming servers and ad server engines, machine learning inference and other compute intensive applications. 
 
-Computer Optimized series contains C and H series 
+Computer Optimized contains C and H series. 
   
 <h3> Memory Optimized </h3>
 Memory optimized instances are designed to deliver fast performance for workloads that process large data sets in memory.  
+  
+  Memory Optimized contains R and X series instances.
+  
+<h3> Accelerated Computing </h3>
+Accelerated computing instances use hardware accelerators, or co-processors, to perform functions, such as floating point number calculations, graphics processing, or data pattern matching, more efficiently than is possible in software running on CPUs.
+  
+  Accelerated computing contains P, G and F series instances.
+  
+  <h3> Storage Optimized </h3>
+Storage optimized instances are designed for workloads that require high, sequential read and write access to very large data sets on local storage. They are optimized to deliver tens of thousands of low-latency, random I/O operations per second (IOPS) to applications.  
+
+Storage optimized instances contains L and D series instances. 
+  
   
   
   
