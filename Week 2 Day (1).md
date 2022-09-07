@@ -44,7 +44,7 @@ Storage optimized instances are designed for workloads that require high, sequen
 
 <h3>Amazon EC2 Autoscaling Groups</h3>
   
-Amazon EC2 Auto Scaling helps you ensure that you have the correct number of Amazon EC2 instances available to handle the load for your application. You create collections of EC2 instances, called Auto Scaling groups. You can specify the minimum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that your group never goes below this size. You can specify the maximum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that your group never goes above this size  
+Amazon EC2 Auto Scaling helps us ensure that we have the correct number of Amazon EC2 instances available to handle the load for our application. You create collections of EC2 instances, called Auto Scaling groups. We can specify the minimum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that our group never goes below this size. We can specify the maximum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that our group never goes above this size.  
   
   
   
