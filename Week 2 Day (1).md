@@ -41,7 +41,13 @@ Accelerated computing instances use hardware accelerators, or co-processors, to 
 Storage optimized instances are designed for workloads that require high, sequential read and write access to very large data sets on local storage. They are optimized to deliver tens of thousands of low-latency, random I/O operations per second (IOPS) to applications.  
 
 - Storage optimized instances contains L and D series instances. 
+  
+  <h3> Scaling </h3>
+Scaling is the process of adding or removing compute, storage, and network services to meet the demands a workload makes for resources in order to maintain availability and performance as utilization increases.
+Scaling can either be done dynamically when there is a variation in demand or it can be done with predictive basis which increases or decreases the number of running instances.    
 
+Additionally, There are two types of scaling i.e. horizontal and vertical scaling.  
+  
 <h3>Amazon EC2 Autoscaling Groups</h3>
   
 Amazon EC2 Auto Scaling helps us ensure that we have the correct number of Amazon EC2 instances available to handle the load for our application. You create collections of EC2 instances, called Auto Scaling groups. We can specify the minimum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that our group never goes below this size. We can specify the maximum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that our group never goes above this size.  
