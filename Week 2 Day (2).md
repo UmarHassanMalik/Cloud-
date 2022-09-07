@@ -1,4 +1,4 @@
-AWS Regions, Availability Zones, Edge Locations(About, List, characteristics)
+
 
 <h3>  AWS Regions </h3>
 
