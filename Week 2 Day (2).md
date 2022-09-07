@@ -17,6 +17,10 @@
 | ----------- | ----------- |   ----------- | 
 |US East (Northern Virginia) |    us-east-1       |    6 | 
 |US East (Ohio)  |  us-east-2    |  	3 |
+      
+
+<h3> AWS Zones </h3>
+An availability zone is a standalone data center or set of data centers within a Region. Each availability zone operates independently, so a failure in one won't affect others. In disaster recovery plans, enterprises use multiple availability zones to increase redundancy and reliability.
 
 
 <h3> Availability Zones ID </h3>
@@ -30,10 +34,6 @@ To coordinate Availability Zones across accounts, you must use the AZ ID, which 
 | ----------- | ----------- |   ----------- | 
 |US East (N. Virginia) |   us-east-1-atl-1a      |  	Atlanta| 
 |US East (N. Virginia)  | us-east-1-bos-1a  |  Boston |
-      
-
-<h3> AWS Zones </h3>
-An availability zone is a standalone data center or set of data centers within a Region. Each availability zone operates independently, so a failure in one won't affect others. In disaster recovery plans, enterprises use multiple availability zones to increase redundancy and reliability.
  
  <h3>  Wavelength Zones </h3>
 
