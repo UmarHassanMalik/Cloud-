@@ -27,5 +27,36 @@ The AWS CLI allows us to manage our AWS environment using a terminal rather than
 ![image](https://user-images.githubusercontent.com/58930229/189301749-d529838f-cdb3-4564-9429-b17d0158f322.png)
 
 
+All AWS CLI commands start with the aws keyword. we then generally specify the service we want to interact with, such as ec2, s3, rds and so on.
+
+<h3> Examples </h3>
+
+ To open the list of all S3 bucket instances I can use this command
+- aws s3 ls
+
+If I want to see the list of all EC2 instances in my account I can use the following command.
+- aws ec2 describe-instances
+
+To run a new instance I can use this command.
+- aws ec2 run-instances --count 1 --image-id ami-a36f8dc4 --instance-type t2.micro --key-name MainKey
+
+
+<h3> AWS SDKs </h3>
+The real power of AWS lies in its programmability and ability to be automated. AWS provides a number of Software Development Kits (SDKs) that allows us to interact with the platform through code that we have developed ourself. SDKs are available for all the major programming languages, including Java, Python, Node.JS and Go.
+
+We use this approach if we want to integrate AWS services into the applications that we are writing  for example, our code could write information to a database service within AWS, such as RDS or DynamoDB.
+
+
+<h3> Cloud Formation </h3>
+
+CloudFormation is a tool used to define infrastructure as code. The approaches we have discussed above all have their own pros and cons, but if we simply want to define the desired infrastructure within AWS, quickly and in a repeatable manner, CloudFormation is likely to be our best bet.
+
+The idea behind CloudFormation is that we can model the AWS services we want to provision, such as EC2 instances, S3 buckets and so on, in a single script using a descriptive language. We can define this script locally and then when we are ready, upload it to AWS, at which point the platform will read the script and then provision the services and features that we have defined in the CloudFormatiom script.
+
+One of the big advantages of using CloudFormation is that because our infrastructure is defined as code, We can treat our scripts the way we would treat any other code - checking it in to code repositories, using version control and so on. CloudFormation is also extremely flexible and powerful, allowing us to use many advanced features such as rolling back the ‘stack’ if there are issues, as well as the ability to detect ‘drift’ from the stack (i.e. if someone has come and manually changed something after the script has run)
+
+
+
+
 
 
