@@ -14,3 +14,11 @@ We can create a CloudFormation template or modify an existing one. A template de
 If our application requires additional availability, we might replicate it in multiple regions so that if one region becomes unavailable, our users can still use our application in other regions. The challenge in replicating the application is that it also requires you to replicate our resources. Not only do we need to record all the resources that our application requires, but you must also provision and configure those resources in each region.
 
 Reuse our CloudFormation template to create your resources in a consistent and repeatable manner. To reuse our template, describe our resources once and then provision the same resources over and over in multiple regions
+
+<h3> AWS Elastic Beanstalk </h3>
+
+Elastic Beanstalk, help us quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications. Elastic Beanstalk reduces management complexity without restricting choice or control. We simply upload your application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring.
+
+Elastic Beanstalk supports applications developed in Go, Java, .NET, Node.js, PHP, Python, and Ruby. When you deploy your application, Elastic Beanstalk builds the selected supported platform version and provisions one or more AWS resources, such as Amazon EC2 instances, to run our application.
+
+You can interact with Elastic Beanstalk by using the Elastic Beanstalk console, the AWS Command Line Interface (AWS CLI), or eb, a high-level CLI designed specifically for Elastic Beanstalk.
