@@ -12,6 +12,6 @@
  
  6- [Different Ways to Interact with AWS Services](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(3).md)
  
- 7- [AWS Infrastructure as a Service & Elastic Beanstalk](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(4).md)
+ 7- [AWS Cloud Formation & Elastic Beanstalk](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(4).md)
   
 
