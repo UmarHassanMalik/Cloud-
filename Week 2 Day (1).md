@@ -37,12 +37,12 @@ Accelerated computing instances use hardware accelerators, or co-processors, to 
   
 - Accelerated computing contains P, G and F series instances.
   
-  <h3> Storage Optimized </h3>
+<h3> Storage Optimized </h3>
 Storage optimized instances are designed for workloads that require high, sequential read and write access to very large data sets on local storage. They are optimized to deliver tens of thousands of low-latency, random I/O operations per second (IOPS) to applications.  
 
 - Storage optimized instances contains L and D series instances. 
   
-  <h3> Scaling </h3>
+<h3> Scaling </h3>
 Scaling is the process of adding or removing compute, storage, and network services to meet the demands a workload makes for resources in order to maintain availability and performance as utilization increases.
 Scaling can either be done dynamically when there is a variation in demand or it can be done with predictive basis which increases or decreases the number of running instances.    
 
