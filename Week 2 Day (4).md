@@ -11,14 +11,18 @@ We can create a CloudFormation template or modify an existing one. A template de
 
 <h3> Replication Of Infrastructure </h3>
 
-If our application requires additional availability, we might replicate it in multiple regions so that if one region becomes unavailable, our users can still use our application in other regions. The challenge in replicating the application is that it also requires you to replicate our resources. Not only do we need to record all the resources that our application requires, but you must also provision and configure those resources in each region.
+If our application requires additional availability, we might replicate it in multiple regions so that if one region becomes unavailable, our users can still use our application in other regions. The challenge in replicating the application is that it also requires us to replicate our resources. Not only do we need to record all the resources that our application requires, but we must also provision and configure those resources in each region.
 
-Reuse our CloudFormation template to create your resources in a consistent and repeatable manner. To reuse our template, describe our resources once and then provision the same resources over and over in multiple regions
+Reuse our CloudFormation template to create our resources in a consistent and repeatable manner. To reuse our template, describe our resources once and then provision the same resources over and over in multiple regions
 
 <h3> AWS Elastic Beanstalk </h3>
 
-Elastic Beanstalk, help us quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications. Elastic Beanstalk reduces management complexity without restricting choice or control. We simply upload your application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring.
+Elastic Beanstalk, help us quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications. Elastic Beanstalk reduces management complexity without restricting choice or control. We simply upload our application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring.
 
-Elastic Beanstalk supports applications developed in Go, Java, .NET, Node.js, PHP, Python, and Ruby. When you deploy your application, Elastic Beanstalk builds the selected supported platform version and provisions one or more AWS resources, such as Amazon EC2 instances, to run our application.
+Elastic Beanstalk supports applications developed in Go, Java, .NET, Node.js, PHP, Python, and Ruby. When we deploy our application, Elastic Beanstalk builds the selected supported platform version and provisions one or more AWS resources, such as Amazon EC2 instances, to run our application.
 
-You can interact with Elastic Beanstalk by using the Elastic Beanstalk console, the AWS Command Line Interface (AWS CLI), or eb, a high-level CLI designed specifically for Elastic Beanstalk.
+We can interact with Elastic Beanstalk by using the Elastic Beanstalk console, the AWS Command Line Interface (AWS CLI), or eb, a high-level CLI designed specifically for Elastic Beanstalk.
+
+We can also perform most deployment tasks, such as changing the size of our fleet of Amazon EC2 instances or monitoring our application, directly from the Elastic Beanstalk web interface (console).
+
+To use Elastic Beanstalk, we create an application, upload an application version in the form of an application source bundle (for example, a Java .war file) to Elastic Beanstalk, and then provide some information about the application. Elastic Beanstalk automatically launches an environment and creates and configures the AWS resources needed to run our code. After our environment is launched, we can then manage our environment and deploy new application versions. The following diagram illustrates the workflow of Elastic Beanstalk.
