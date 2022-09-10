@@ -4,7 +4,7 @@
  
  2- [On Premises (Private) VS Public Cloud](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%201%20Day%202.md)
  
- 3- [AWS Model & Its Applications](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%20%231%20(Day1).md)
+ 3- [Cloud Model, Types & Its Applications](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%20%231%20(Day1).md)
  
  4- [Amazon EC2 Service](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(1).md)
  
