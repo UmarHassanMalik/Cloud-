@@ -27,6 +27,6 @@ We can also perform most deployment tasks, such as changing the size of our flee
 
 To use Elastic Beanstalk, we create an application, upload an application version in the form of an application source bundle (for example, a Java .war file) to Elastic Beanstalk, and then provide some information about the application. Elastic Beanstalk automatically launches an environment and creates and configures the AWS resources needed to run our code. After our environment is launched, we can then manage our environment and deploy new application versions. The following diagram illustrates the workflow of Elastic Beanstalk.
 
-<h3> Retreive Information of Deployedd Application </h3>
+<h3> Retreive Information of Deployed Application </h3>
 After we create and deploy our application, information about the application—including metrics, events, and environment status—is available through the Elastic Beanstalk console, APIs, or Command Line Interfaces, including the unified AWS CLI.
 
