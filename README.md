@@ -10,7 +10,7 @@
  
  5- [AWS Regions/Zones/Locations, Charateristics & List](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(2).md)
  
- 6- [Different Ways to Interact with AWS Services](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(3).md)
+ 6- [Different Ways to Interact with AWS](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(3).md)
  
  7- [AWS Cloud Formation & Elastic Beanstalk](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(4).md)
   
