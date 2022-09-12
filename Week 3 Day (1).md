@@ -13,7 +13,7 @@ EBS provides more traditional file system capabilities. EBS storage is organized
 EBS volumes are available in either standard or provisioned IOPs versions. The standard version is suitable for applications that need only moderate I/O performance or have intermittent need for high numbers of I/O operations. Provisioned EBS volumes are suited for applications that require consistent levels of I/O throughout, such as databases. With provisioned IOPs you can purchase varying levels of I/O performance depending on your needs.
 
 <h3> Conclusion </h3>
-Amazon EBS, the DeleteOnTermination attribute for an instance's root volume is set to true by default. If this attribute is not changed, then the instance's root volume is deleted when the instance terminates. To change the DeleteOnTermination attribute to false
+The best practice is to use a storage service like EBS for persistent storage as per our demand. So therefore, it will allow us to store and handle the data for a long period of time. Amazon EBS, the DeleteOnTermination attribute for an instance's root volume is set to true by default. If this attribute is not changed, then the instance's root volume is deleted when the instance terminates. To change the DeleteOnTermination attribute to false.
 
 
 
