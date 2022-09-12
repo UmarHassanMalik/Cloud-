@@ -18,7 +18,7 @@ EBS volumes are available in either standard or provisioned IOPs versions. The s
 | Creates replicas in its availability zone |   No replication of data  |
 | Upgrade/ Modify the volume type change in demand    |     HDD / SSD  | 
 | Snapshot for disaster recovery, data migration & backup support |  No such feature/support | 
-| Availability 99.99% |  N/A     |
+| Availability 99.99% |  N/A lost of data on instance restart, hardware failure, termincation (non persistant)     |
 
 
 <h3> Conclusion </h3>
