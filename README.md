@@ -13,5 +13,8 @@
  6- [Different Ways to Interact with AWS](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(3).md)
  
  7- [AWS Cloud Formation & Elastic Beanstalk](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%202%20Day%20(4).md)
+ 
+ 8- [AWS EBS VS EC2 ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%203%20Day%20(1).md)
+ 
   
 
