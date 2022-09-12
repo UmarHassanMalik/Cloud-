@@ -1,8 +1,8 @@
 
-<h2> EBS VS EC2 </h2>
+<h2> EBS VS Instance Store </h2>
 
 
-<h3> EC2 </h3> 
+<h3> Instance Store (EC2) </h3> 
 
 Elastic Compute Cloud comes with a direct block storage feature called as instance store. We can play with and store our data for testing purposes/ short time temporary usage within EC2 (instance store). The reason is; This data storage is not persistent. So if the instance fails, terminates or the hard failure occurs the data stored will be lost. 
 
