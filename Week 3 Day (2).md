@@ -18,7 +18,7 @@ Amazon Simple Storage Service (Amazon S3) is a scalable, high-speed, web-based c
   To transform data and trigger workflows to automate a variety of other processing activities at scale, you can use the following features.
    
 - Storing Logging & Monitoring (Both Automated and Manual Monitoring Tools)
-- 
+
   Amazon S3 provides logging and monitoring tools that you can use to monitor and control how your Amazon S3 resources are being used
   
 - Analytics and insights
@@ -28,3 +28,8 @@ Amazon Simple Storage Service (Amazon S3) is a scalable, high-speed, web-based c
 - Analytics and insights
 
   Amazon S3 offers features to help you gain visibility into your storage usage, which empowers you to better understand, analyze, and optimize your storage at scale.
+
+- Strong consistency
+
+Amazon S3 provides strong read-after-write consistency for PUT and DELETE requests of objects in your Amazon S3 bucket in all AWS Regions. This behavior applies to both writes of new objects as well as PUT requests that overwrite existing objects and DELETE requests. In addition, read operations on Amazon S3 Select, Amazon S3 access control lists (ACLs), Amazon S3 Object Tags, and object metadata (for example, the HEAD object) are strongly consistent.
+  
