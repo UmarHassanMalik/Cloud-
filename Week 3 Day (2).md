@@ -41,4 +41,18 @@ To store our data in Amazon S3, ywe first create a bucket and specify a bucket n
 S3 provides features that we can configure to support our specific use case. e.g we can use S3 Versioning to keep multiple versions of an object in the same bucket, which allows us to restore objects that are accidentally deleted or overwritten.
 
 Buckets and the objects in them are private and can be accessed only if we explicitly grant access permissions. We can use bucket policies, AWS Identity and Access Management (IAM) policies, access control lists (ACLs), and S3 Access Points to manage access.
+
+
+<h2> S3 VS EBS
+
+| S3     | EBS |  
+| ----------- | ----------- |  
+|   Amazon S3 is a simple storage service and it is useful for hosting website images and videos, data analytics.   |  Amazon EBS is a block-level data storage service. Block storage stores files in multiple volumes called blocks, which act as separate hard drives, and this storage is not accessible via the internet  |
+ |  The files within an S3 bucket are stored in an unstructured manner and can be retrieved using HTTP protocols  |  EBS is only accessible by the instance to which it is connected to   |
+ |  S3 is accessed via the internet using API’s  |  EBS is accessed by the single instance attached to EBS   |
+ |  It provides durability by redundantly storing the data across multiple Availability Zones   |   EBS provides durability by redundantly storing the data in a single Availability Zone.   |
+ |  S3 can prevent unauthorized accessing of data using its access management tools and encryption policies   |   if any user gets unauthorized access to the instance then he/she can easily access the attached EBS  |
+  | the standard limit is of100 buckets and each bucket has got an unlimited data capacity |   EBS has a standard limit of 20 volumes and each volume can hold data up to 1TB  |
+  | S3 offers rapid scalability to its users/clients, resources can be provisioned and de-provisioned in run time   | There is manual increasing or decreasing of storage resources    |
+  |  S3 uses versioning and cross-region replication  |   EBS is supported by snapshots and automated backup.  |
   
