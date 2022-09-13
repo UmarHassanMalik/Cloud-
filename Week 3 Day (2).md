@@ -52,7 +52,12 @@ Buckets and the objects in them are private and can be accessed only if we expli
  |  S3 is accessed via the internet using API’s  |  EBS is accessed by the single instance attached to EBS   |
  |  It provides durability by redundantly storing the data across multiple Availability Zones   |   EBS provides durability by redundantly storing the data in a single Availability Zone.   |
  |  S3 can prevent unauthorized accessing of data using its access management tools and encryption policies   |   if any user gets unauthorized access to the instance then he/she can easily access the attached EBS  |
-  | the standard limit is of100 buckets and each bucket has got an unlimited data capacity |   EBS has a standard limit of 20 volumes and each volume can hold data up to 1TB  |
+  | The standard limit is of100 buckets and each bucket has got an unlimited data capacity |   EBS has a standard limit of 20 volumes and each volume can hold data up to 1TB  |
   | S3 offers rapid scalability to its users/clients, resources can be provisioned and de-provisioned in run time   | There is manual increasing or decreasing of storage resources    |
   |  S3 uses versioning and cross-region replication  |   EBS is supported by snapshots and automated backup.  |
+  | Free Tier – 5 GB
+First 50 TB/month – $0.023/GB
+450 TB/month – $0.022/GB   |     Free Tier – 30 GB
+General Purpose – $0.045/GB(1 month)
+Provisioned SSD – $0.125/GB(1 month)      |
   
