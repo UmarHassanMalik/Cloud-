@@ -43,7 +43,7 @@ S3 provides features that we can configure to support our specific use case. e.g
 Buckets and the objects in them are private and can be accessed only if we explicitly grant access permissions. We can use bucket policies, AWS Identity and Access Management (IAM) policies, access control lists (ACLs), and S3 Access Points to manage access.
 
 
-<h2> S3 VS EBS
+<h2> S3 VS EBS </h2>
 
 | S3     | EBS |  
 | ----------- | ----------- |  
