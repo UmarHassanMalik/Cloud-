@@ -56,4 +56,8 @@ Buckets and the objects in them are private and can be accessed only if we expli
   | S3 offers rapid scalability to its users/clients, resources can be provisioned and de-provisioned in run time   | There is manual increasing or decreasing of storage resources    |
   |  S3 uses versioning and cross-region replication  |   EBS is supported by snapshots and automated backup.  |
   |  Free Tier ,  5 GB First 50 TB/month – $0.023/GB , 450 TB/month – $0.022/GB   |     Free Tier , 30 GB General Purpose  $0.045/GB(1 month) , Provisioned SSD $0.125/GB(1 month) |
+
+<h3> Amazon RDS </h3>
+
+
   
