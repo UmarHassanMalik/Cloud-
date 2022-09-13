@@ -59,5 +59,9 @@ Buckets and the objects in them are private and can be accessed only if we expli
 
 <h3> Amazon RDS </h3>
 
+Amazon Relational Database Service (RDS) is a managed SQL database service provided by Amazon Web Services (AWS). Amazon RDS supports an array of database engines to store and organize data. It also helps in relational database management tasks like data migration, backup, recovery and patching.
 
+Amazon RDS facilitates the deployment and maintenance of relational databases in the cloud. Cloud administrators use Amazon RDS to set up, operate, manage, and scale relational instances of cloud databases. Amazon RDS itself is not a database; It is a service used to manage relational databases.
+
+Amazon RDS is available on multiple database instance types - optimized for memory, performance or I/O - and gives you six familiar database engines to choose from, including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database and SQL Server Huh. You can use the AWS Database Migration Service to migrate easily or replicate your existing databases to Amazon RDS.
   
