@@ -63,5 +63,5 @@ Amazon Relational Database Service (RDS) is a managed SQL database service provi
 
 Amazon RDS facilitates the deployment and maintenance of relational databases in the cloud. Cloud administrators use Amazon RDS to set up, operate, manage, and scale relational instances of cloud databases. Amazon RDS itself is not a database; It is a service used to manage relational databases.
 
-Amazon RDS is available on multiple database instance types - optimized for memory, performance or I/O - and gives you six familiar database engines to choose from, including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database and SQL Server Huh. You can use the AWS Database Migration Service to migrate easily or replicate your existing databases to Amazon RDS.
+Amazon RDS is available on multiple database instance types - optimized for memory, performance or I/O  and gives us six familiar database engines to choose from, including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database and SQL Server Huh. We can use the AWS Database Migration Service to migrate easily or replicate our existing databases to Amazon RDS.
   
