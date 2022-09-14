@@ -37,7 +37,21 @@ AWS DMS is an AWS cloud service created to migrate data in a variety of ways: to
 
 - Almost all DBMS engines like Oracle, Microsoft SQL Server, MySQL, MariaDB, PostgreSQL, Db2 LUW, SAP, MongoDB, and Amazon Aurora are supported as sources by AWS DMS.
 
+- Security is built in with an AWS DMS migration. Data at rest is encrypted with AWS KMS encryption (AWS Key Management Service). During migration, (SSL Secure Socket Layers) encrypts your in-flight data as it moves from source to target.
+
+
+<h3> DisAdvantages </h3>
+<b> Capacity: </b>
+
+We should obey that the AWS database migration service has not enough power to process complex stored procedures. A large number of users were reviewed to enhance the capacity.
+
+<b> Configuration Issues: </b>
+
+ The main limitation is the configuration barrier of the AWS migration service. Basically, AWS database migration service agents don’t support some configurations like HTTP/ HTTPS and SOCKS proxy. So, If we want to use these configurations, then we won’t be able to migrate data to the cloud
+
+
 <h2> Comparing Amazon RDS & Dynamo DB </h2> 
+
 
 | RDS     | Dynamo DB |  
 | ----------- | ----------- | 
