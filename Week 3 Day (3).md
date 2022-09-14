@@ -37,7 +37,7 @@ AWS DMS is an AWS cloud service created to migrate data in a variety of ways: to
 
 - Almost all DBMS engines like Oracle, Microsoft SQL Server, MySQL, MariaDB, PostgreSQL, Db2 LUW, SAP, MongoDB, and Amazon Aurora are supported as sources by AWS DMS.
 
-<h2> Amazon RDS VS Dynamo DB </h2> 
+<h2> Comparing Amazon RDS & Dynamo DB </h2> 
 
 | RDS     | Dynamo DB |  
 | ----------- | ----------- | 
