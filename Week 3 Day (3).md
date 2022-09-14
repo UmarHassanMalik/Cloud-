@@ -36,3 +36,13 @@ AWS DMS is an AWS cloud service created to migrate data in a variety of ways: to
 - AWS DMS covers a wide range of targets including Oracle, Microsoft SQL Server, PostgreSQL, MySQL, Amazon Redshift, SAP ASE, Amazon S3, and Amazon DynamoDB.
 
 - Almost all DBMS engines like Oracle, Microsoft SQL Server, MySQL, MariaDB, PostgreSQL, Db2 LUW, SAP, MongoDB, and Amazon Aurora are supported as sources by AWS DMS.
+
+<h2> Amazon RDS VS Dynamo DB </h2> 
+
+| RDS     | Dynamo DB |  
+| ----------- | ----------- | 
+|  Amazon RDS stands for "Relational Database Service", tt is  mostly used for structured and relational data (SQL)          |   DynamoDB is the option that AWS offers for non-relational (NoSQL) databases         |
+| There are two SSD backed options for storage in Amazon RDS. A high-performance choice for OLTP applications and another cost-effective solution for general-purpose use.    | DynamoDB is known for high-performance as it can cope with more than 10 trillion requests within a single day with peaks greater than 20 million requests per second.    |
+|    That varies with database engine       |   It provides 256 tables per unit       |
+|    Amazon RDS will update databases with the latest patches. You can exert optional control over when and if your database instance is patched.           |   No maintenance since DynamoDB is serverless.          |
+|   A monthly charge for each database instance that you launch. Option to reserve a DB instance for a One or three year term and receive discounts in pricing, compared to On-Demand instance pricing.        |  Charges for reading, writing, and storing data in our DynamoDb tables, along with any optional features you choose to enable. There are specific billing options for each of DynamoDB’s capacity modes.          |
