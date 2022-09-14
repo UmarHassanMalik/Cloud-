@@ -4,10 +4,15 @@ DynamoDB is a fully managed & hosted NoSQL database on Amazon Web Services.
 
 <h3> Features </h3>
 - DynamoDB offloads the administrative burdens of operating and scaling a distributed database so that we don't have to worry about hardware provisioning.
+
 - Scalable and provides excellent performance.
-- Setup and configuration
+
+- Setup and configuration.
+
 - Software patching, or cluster scaling.
+
 - Eliminates the operational burden and complexity involved in protecting sensitive data.
+
 - High availability and durability.
 
 <h2> Amazon Redshift </h2>
