@@ -40,7 +40,7 @@ AWS DMS is an AWS cloud service created to migrate data in a variety of ways: to
 - Security is built in with an AWS DMS migration. Data at rest is encrypted with AWS KMS encryption (AWS Key Management Service). During migration, (SSL Secure Socket Layers) encrypts your in-flight data as it moves from source to target.
 
 
-<h3> DisAdvantages </h3>
+<h3> Dis-Advantages </h3>
 <b> Capacity: </b>
 
 We should obey that the AWS database migration service has not enough power to process complex stored procedures. A large number of users were reviewed to enhance the capacity.
