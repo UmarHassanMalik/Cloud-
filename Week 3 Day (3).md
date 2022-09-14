@@ -31,8 +31,6 @@ AWS DMS is an AWS cloud service created to migrate data in a variety of ways: to
 
 - AWS DMS reassures with automatic failover. A backup replication server swings into action if the main replication server fails and takes over with hardly any interruption of service.
 
-= AWS DMS covers a wide range of targets including Oracle, Microsoft SQL Server, PostgreSQL, MySQL, Amazon Redshift, SAP ASE, Amazon S3, and Amazon DynamoDB.
-
 - AWS DMS enables heterogeneous data migration from any supported data source to any supported target.
 
 - AWS DMS covers a wide range of targets including Oracle, Microsoft SQL Server, PostgreSQL, MySQL, Amazon Redshift, SAP ASE, Amazon S3, and Amazon DynamoDB.
