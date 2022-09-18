@@ -20,4 +20,4 @@
  
  10- [Amazon Dynamo DB, Dynamo DB VS RDS, Amazon Redshift, Amazon DMS ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%203%20Day%20(3).md)
   
-
+11- [Shared Responsibility Model, Denial Of Service Attacks and Protection, Amazon KMS, WAF, Guard Duty ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%203%20Day%20(3).md)
