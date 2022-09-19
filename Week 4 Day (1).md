@@ -120,7 +120,7 @@ The AWS Cloud Adoption Framework (AWS CAF) is designed to help us to build and t
 - The Platform perspective help us to build an enterprise-grade, scalable, hybrid cloud platform, modernize existing workloads, and implement new cloud-native solutions.
 <b> Security  </b>
 
-- The Security perspective help us to achieve the confidentiality, integrity, and availability of your data and cloud workloads.
+- The Security perspective help us to achieve the confidentiality, integrity, and availability of our data and cloud workloads.
 
 <b> Operations </b>
 
