@@ -111,6 +111,7 @@ These are following 6 Migration strategies.
 
 <h3> Feature Comparison Matrix </h3>  
   
+  
  ![image](https://user-images.githubusercontent.com/58930229/191364570-7e918ec3-5351-4729-a06b-dfcd281e2bb0.png)
 
   
