@@ -26,4 +26,4 @@
 
 13- [Amazon Trusted Advisor, CAF Capabilites and Perspective](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%204%20Day%20(1).md)
 
-14- [AWS Migration Strategies, AWS Snow Family ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%204%20Day%20(1).md)
+14- [AWS Migration Strategies, AWS Snow Family ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%204%20Day%20(2).md)
