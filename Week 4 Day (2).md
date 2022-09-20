@@ -53,3 +53,58 @@ These are following 6 Migration strategies.
 
 <h3>Features </h3>
 
+<b>Simple management and monitoring <b> 
+
+- AWS OpsHub provides complimentary graphical user interface available to makes it easy to setup and manage Snow devices.
+-  It instantly deploys edge computing workloads and migrate data to the cloud.
+
+<b> NFS endpoint </b>
+  
+- Applications can work with Snow Family devices as an NFS mount point. NFS v3 and v4.1 are supported. 
+- Snow devices with your existing on-premises servers and file-based applications  
+  
+<b> On-board computing </b>
+
+- Computing resources to collect and process data at the edge   
+- Amazon EC2 instances with processing and storage available to support our applications.
+  
+<b> Encryption </b>
+
+- Data moved to AWS Snow Family devices is automatically encrypted with 256-bit encryption keys that are managed by the AWS Key Management Service.
+- Data stays secure during transit
+  
+<b> Anti-tamper & Tamper-evident </b>
+
+- Trusted Platform Module provides a hardware root of trust. 
+- Each device is inspected after each use to ensure the integrity of the device.
+- Preserve the confidentiality of our data.  
+  
+<b> End-to-end tracking </b>
+
+- Each device uses an E-Ink shipping label for easy tracking and automatic label updates for return shipping using Amazon Simple Notification Service through text messages and console.  
+  
+<b>Secure erasure </b>
+
+- Once the data migration job is complete and verified, AWS performs a software erasure of the device.
+  
+  <h2> AWS Snow Family service models </h2>
+  
+  <h3> AWS Snowcone </h3>
+  
+- AWS Snowcone is portable, rugged, and secure that provides edge computing and data transfer devices.
+- Snowcone can be used to collect, process, and move data to AWS, either offline by shipping the device, or online with AWS DataSync.
+- Snowcone devices are small and weigh 4.5 lbs. (2.1 kg), so you can carry one in a backpack or fit it in tight spaces for IoT, vehicular, or even drone use cases.
+- AWS Snowcone stores data securely in edge locations, and can run edge computing workloads that use AWS IoT Greengrass or EC2 instances.
+  
+  <h3> AWS Snowball </h3>
+  
+- AWS Snowball is available as a Compute Optimized device or a Storage Optimized device.
+- All devices are suited for extreme conditions, tamper proof, and highly secure.  
+- It is compute optimied and storage optimized.   
+  
+  <h3> AWS Snowmobile </h3>
+  
+- This is an Exabyte-scale data migration device used to move extremely large amounts of data to AWS.
+- AWS Snowmobile moves up to 100 PB of data in a 45-foot long ruggedized shipping container and is ideal for multi-petabyte or Exabyte-scale digital media migrations and data center shutdowns  
+  
+  
