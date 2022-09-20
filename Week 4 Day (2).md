@@ -24,6 +24,7 @@ These are following 6 Migration strategies.
 - Or we can completely replacing our current application with SaaS options.
 
 <h3> Re-architect  </h3>
+
 - This is the most advanced application migration strategy.
 - We simply redesign our application in a more cloud-native manner.
 - In general we create a serverless version of a legacy application.
@@ -31,10 +32,12 @@ These are following 6 Migration strategies.
 - We can convert our monolithic application into smaller micro-services and by using the services like Amazon Elastic Kubernetes Service, AWS Lambda, or AWS Fargate
 
 <h3> Retire  </h3>
+
 - After discovering new softwares and applications, we decide that we dont need this application anymore This is just getting rid of them as we’re not going to use them anymore
 
 
 <h3> Retain  </h3>
+
 - We can decide to keep the application and evaluating them later if needed.
 - Examples are Legacy applications that do not have a business justification for migrating to the cloud.
 - Unsupported OS and applications.
