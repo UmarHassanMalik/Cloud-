@@ -44,3 +44,12 @@ These are following 6 Migration strategies.
 
 ![image](https://user-images.githubusercontent.com/58930229/191357207-6cb1062a-6e85-4957-ab27-add4f2f56845.png)
 
+<h2> AWS Snow Family </h2>
+
+- AWS Snow Family helps physically transport up to exabytes of data into and out of AWS.
+- AWS Snow Family, comprised of AWS Snowcone, AWS Snowball, and AWS Snowmobile, offers a number of physical devices and capacity points, most with built-in computing capabilities.
+- Snow Family devices are owned and managed by AWS and integrate with AWS security, monitoring, storage management, and computing capabilities.
+- AWS Snow Family helps customers that need to run operations in austere, non-data center environments, and in locations where there’s a lack of consistent network connectivity.
+
+<h3>Features </h3>
+
