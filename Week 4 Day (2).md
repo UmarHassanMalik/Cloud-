@@ -105,6 +105,14 @@ These are following 6 Migration strategies.
   <h3> AWS Snowmobile </h3>
   
 - This is an Exabyte-scale data migration device used to move extremely large amounts of data to AWS.
-- AWS Snowmobile moves up to 100 PB of data in a 45-foot long ruggedized shipping container and is ideal for multi-petabyte or Exabyte-scale digital media migrations and data center shutdowns  
+- AWS Snowmobile moves up to 100 PB of data in a 45-foot long ruggedized shipping container. 
+- Ideal for multi-petabyte or Exabyte-scale digital media migrations and data center shutdowns.
+  
+
+<h3> Feature Comparison Matrix </h3>  
+  
+ ![image](https://user-images.githubusercontent.com/58930229/191364570-7e918ec3-5351-4729-a06b-dfcd281e2bb0.png)
+
+  
   
   
