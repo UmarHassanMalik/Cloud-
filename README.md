@@ -23,3 +23,7 @@
 11- [Shared Responsibility Model, Denial Of Service Attacks and Protection, Amazon KMS, WAF, Guard Duty ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%203%20Day%20(4).md)
 
 12- [Cloud Watch, Cloud Trial](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%203%20Day%20(5).md)
+
+13- [Amazon Trusted Advisor, CAF Capabilites and Perspective](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%204%20Day%20(1).md)
+
+14- [AWS Migration Strategies, AWS Snow Family ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%204%20Day%20(1).md)
