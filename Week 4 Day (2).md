@@ -41,3 +41,6 @@ These are following 6 Migration strategies.
 - We can decide to keep the application and evaluating them later if needed.
 - Examples are Legacy applications that do not have a business justification for migrating to the cloud.
 - Unsupported OS and applications.
+
+![image](https://user-images.githubusercontent.com/58930229/191357207-6cb1062a-6e85-4957-ab27-add4f2f56845.png)
+
