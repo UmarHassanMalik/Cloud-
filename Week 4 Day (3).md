@@ -41,6 +41,7 @@ AWS Well-Architected helps cloud architects build secure, high-performing, resil
 - It includes a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.
 
 <h3> AWS Well-Architected Lenses </h3>
+
 - AWS Well-Architected Lenses extend the guidance offered by AWS Well-Architected to specific industry and technology domains.
 - In order to evaluate workloads, use applicable lenses together with the AWS Well-Architected Framework.
 <b>Examples </b> 
