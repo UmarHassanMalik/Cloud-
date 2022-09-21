@@ -27,7 +27,7 @@ AWS Well-Architected helps cloud architects build secure, high-performing, resil
 - It focuses on workloads performing their intended functions and how to recover quickly from failure to meet demands.
 - It includes distributed system design, recovery planning, and adapting to changing requirements.
 
-<b> Performance Efficiency Pillar </b>
+<b> Performance Efficiency  </b>
 
 - It focuses on organized allocation of IT and computing resources
 - It includes selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency.
@@ -40,7 +40,12 @@ AWS Well-Architected helps cloud architects build secure, high-performing, resil
 - It focuses on minimizing the environmental impacts of running cloud workloads.
 - It includes a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.
 
+<h3> AWS Well-Architected Lenses </h3>
+- AWS Well-Architected Lenses extend the guidance offered by AWS Well-Architected to specific industry and technology domains.
+- In order to evaluate workloads, use applicable lenses together with the AWS Well-Architected Framework.
+<b>Examples </b> 
 
+- Machine learning, data analytics, serverless, high performance computing, IoT, SAP, streaming media, gaming inudustry, hybrid networking, and financial services
 
 
 
