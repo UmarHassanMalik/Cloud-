@@ -57,7 +57,7 @@ AWS Well-Architected helps cloud architects build secure, high-performing, resil
 <h3> 2- How can you be innovative on AWS? </h3>
 
 <b> Why do we need innovation ? </b> 
-Building new tools from scratch, implementing new ideas, and experimenting on our own is resource-intensive and requires a lot of time. Plus there's the chance that, at the end of it, we might not have much to show for our investment.
+Building new tools from scratch, implementing new ideas, and experimenting on our own is resource intensive and requires a lot of time. Plus there's the chance that, at the end of it, we might not have much to show for our investment.
 
 Innovation can also be hard to define. For some businesses, it means developing new products or services. Others might focus on personalising customer journeys. For some, the priority will be new market entry. But that varies in every business.
 
@@ -75,7 +75,7 @@ Innovation can also be hard to define. For some businesses, it means developing 
   
   It ensures we’re building the right things and making the right decisions for customers. In this process, we start by defining the customer and their needs, and then outline a press release to help us visualize the customer outcome.
   
-  These three elements—the press release, FAQs, and visuals—serve as a mechanism to allow team members to discuss, debate, and help evolve the idea into reality
+  These three elements, the press release, FAQs, and visuals—serve as a mechanism to allow team members to discuss, debate, and help evolve the idea into reality
   
   <b> Architecture </b> 
   
