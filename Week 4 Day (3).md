@@ -44,6 +44,8 @@ AWS Well-Architected helps cloud architects build secure, high-performing, resil
 
 - AWS Well-Architected Lenses extend the guidance offered by AWS Well-Architected to specific industry and technology domains.
 - In order to evaluate workloads, use applicable lenses together with the AWS Well-Architected Framework.
+
+
 <b>Examples </b> 
 
 - Machine learning, data analytics, serverless, high performance computing, IoT, SAP, streaming media, gaming inudustry, hybrid networking, and financial services
