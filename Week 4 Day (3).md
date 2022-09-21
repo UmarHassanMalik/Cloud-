@@ -11,18 +11,18 @@ AWS Well-Architected helps cloud architects build secure, high-performing, resil
 
 <h3> A well Architectured and Six Pillars </h3>
 
-<b> Operational Excellence Pillar </b>
+<b> Operational Excellence</b>
  
 - It Focuses on running and monitoring systems, and continually improving processes and procedures.
 - Includes automating changes, responding to events, and defining standards to manage daily operations.
 
 
-<b> Security Pillar </b>
+<b> Security </b>
 
 - It focuses on protecting information and systems.
 - Includes confidentiality and integrity of data, managing user permissions, and establishing controls to detect security events.
 
-<b> Reliability Pillar </b>
+<b> Reliability </b>
 
 - It focuses on workloads performing their intended functions and how to recover quickly from failure to meet demands.
 - It includes distributed system design, recovery planning, and adapting to changing requirements.
@@ -32,13 +32,15 @@ AWS Well-Architected helps cloud architects build secure, high-performing, resil
 - It focuses on organized allocation of IT and computing resources
 - It includes selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency.
 
-<b> Cost Optimization Pillar </b>
+<b> Cost Optimization </b>
 - It focuses on avoiding useless spendings.
 - It includes spending over time and controlling fund allocation, selecting resources of the right type, quantity, and scaling.
 
-<b> Sustainability Pillar </b>
-- 
--
+<b> Sustainability </b>
+- It focuses on minimizing the environmental impacts of running cloud workloads.
+- It includes a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.
+
+
 
 
 
