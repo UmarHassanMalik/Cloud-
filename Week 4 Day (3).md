@@ -4,6 +4,7 @@
 AWS Well-Architected helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads. Built around six pillars—operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability—AWS Well-Architected provides a consistent approach for customers and partners to evaluate architectures and implement scalable designs.
 
 <h3> Framework </h3>
+
 - AWS Well-Architected Framework includes domain-specific lenses, hands-on labs, and the AWS Well-Architected Tool.
 - Available at no cost. 
 - Helps in evaluating workloads, identifying high-risk issues, and recording improvements.
