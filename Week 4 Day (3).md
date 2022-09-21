@@ -33,11 +33,11 @@ AWS Well-Architected helps cloud architects build secure, high-performing, resil
 - It includes selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency.
 
 <b> Cost Optimization Pillar </b>
--
--
+- It focuses on avoiding useless spendings.
+- It includes spending over time and controlling fund allocation, selecting resources of the right type, quantity, and scaling.
 
 <b> Sustainability Pillar </b>
--
+- 
 -
 
 
