@@ -30,3 +30,5 @@
 14- [AWS Migration Strategies, AWS Snow Family ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%204%20Day%20(2).md)
 
 15- [Q/A What is AWS Well-Architecture Framework? How can you be innovative on AWS](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%204%20Day%20(3).md)
+
+16- [Global Networking in AWS, Subnets and Network Access Control list in context with AWS ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Week%204%20Day%20(3).md)
