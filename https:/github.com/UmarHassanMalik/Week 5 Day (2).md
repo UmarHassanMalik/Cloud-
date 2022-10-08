@@ -98,6 +98,27 @@ Data storage arhcitecture manages data as objects
 - DNS hostnames.
 
 
+<h3> VPC Features </h3>
+
+- AWS has default VPC with default settings.
+
+<b> Example </b> 
+
+- Default DHCP 
+- Default Security group.
+- Default network access control list.
+- VPC size /16 IPv4 CIDR Block.
+- Has route table. 
+- Default subnet /20 in each zone.
+
+<h3> VPC Peering </h3>
+
+- Allows us to connect to another VPC over a irect network route using a private network address.
+
+<h3> Route Tables </h3> 
+
+- It determines where our traffic is directed. 
+- Each subnet should be associated with it.
 
 
 
