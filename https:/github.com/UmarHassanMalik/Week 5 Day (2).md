@@ -50,6 +50,32 @@ Data storage arhcitecture manages data as objects
 
 ![image](https://user-images.githubusercontent.com/58930229/194708262-ec9ba5d8-75bd-4a75-b42d-0c8945309020.png)
 
+<h3> S3 Security </h3>
+
+- Access control list can be configured by using bucket policies. 
+
+<b> Encryption </b> 
+
+- Server side encryption -  encrypt object data. 
+- SSE-AES, SSE-KMS, SSE-C.
+- S3 managed keys.
+- Client side encryption - we encrypt our files before uploading to S3.
+
+<h3> Data Consistency </h3>
+
+- Read After Write Consistency. 
+- Eventual consistency. 
+
+<h3> Cross Region Replication CRR </h3> 
+
+- When enabled --- replicates an object to another region 
+- Durablitiy -- Disaster recovery.
+
+<h3> MFA Delete </h3>
+
+- Ensures that users cannot delete MFA unless they provide their MFA code.
+- Bucket S3 versioning must be turned on. 
+- AWS cli must be used to turn on MFA.
 
 
 
