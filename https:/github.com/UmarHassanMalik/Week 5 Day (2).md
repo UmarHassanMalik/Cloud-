@@ -77,7 +77,11 @@ Data storage arhcitecture manages data as objects
 - Bucket S3 versioning must be turned on. 
 - AWS cli must be used to turn on MFA.
 
-
+<h3> Snowball </h3>
+ 
+- Generally it costs thousands of dollars to transfer 100TB over high speed internet. 
+- Snowball reduces this cost by 1/5th.
+- Reduce transfer time by less than a week.
 
 
 
