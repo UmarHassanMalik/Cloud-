@@ -87,6 +87,18 @@ Data storage arhcitecture manages data as objects
 
 <b> Snowmobile can transfer upto 100PB per snowmobile </b>
 
+![image](https://user-images.githubusercontent.com/58930229/194718919-afc2865f-412d-47a8-9daa-abf2d74ee064.png)
+
+<h3> Virtual Private Cloud (VPC) </h3>
+
+- Region Specific. 
+- Can create 5 VPC per region.
+- 200 VPC subnets per VPC.
+- IP4 Cidr Block.
+- DNS hostnames.
+
+
+
 
 
 
