@@ -120,6 +120,19 @@ Data storage arhcitecture manages data as objects
 - It determines where our traffic is directed. 
 - Each subnet should be associated with it.
 
+<h3> IGW Internet Gateway </h3> 
+
+- Allows VPC to connect to the internet.
+- NAT translation.
+- Target VPC route tables to connect to internet routeable traffic.
+
+<h3> Bastions <h3>
+ 
+ They are EC2 instances in a private subnet and security hardened. They give access to EC2 instances via SSH/RCP.
+ 
+ 
+ 
+
 
 
 
