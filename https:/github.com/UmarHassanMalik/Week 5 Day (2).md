@@ -35,7 +35,21 @@ Data storage arhcitecture manages data as objects
 
 <h3> S3 Buckets </h3>
 
-- S3 bucket hold object. Its a universal namespace so their name must be unique.
+- S3 bucket hold objectw. 
+- Its a universal namespace so their name must be unique.
+
+<h3> Storage Classes </h3> 
+
+- Fast Availabilty (99.99%), durability and replicated across various zones.
+- Intelligent Tiering. 
+- Standard Infrequently Accessed. 
+- One Zone IA
+- Glacier - long term cheap storage.
+
+![image](https://user-images.githubusercontent.com/58930229/194708262-ec9ba5d8-75bd-4a75-b42d-0c8945309020.png)
+
+
+
 
 
 
