@@ -83,6 +83,11 @@ Data storage arhcitecture manages data as objects
 - Snowball reduces this cost by 1/5th.
 - Reduce transfer time by less than a week.
 
+<b> We can use snowball edge having more storage and several properties like processing etc. </b>
+
+<b> Snowmobile can transfer upto 100PB per snowmobile </b>
+
+
 
 
 
