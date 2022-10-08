@@ -152,6 +152,18 @@ Gateway Endpoints
 
 - It targets a specific route in the route table.
 
+<h3> Flow Logs </h3>
+
+It captures traffic information in and out of network interfaces with in VPC.
+
+It can be created for 
+
+- Subnets
+- VPC. 
+- Network interface.
+
+
+
  
  
  
