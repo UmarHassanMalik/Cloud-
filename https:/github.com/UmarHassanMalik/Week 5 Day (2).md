@@ -169,6 +169,20 @@ It can be created for
 
 Network Access control list contains set of rules which allows or deny network traffic into or out of a subnet.
 
+<h3> Security Groups </h3>
+
+Security Groups contains set of rules that controls inbound and outbound traffic of EC2 Instances.
+It has no deny rules. Acts as a virtual firewall at instance level.
+
+<h3> NAT </h3>
+
+Network address translation remaps the Private IP addresses in a private network to gain the outbound access to the internet.
+
+
+
+
+ 
+
 
 
 
