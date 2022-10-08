@@ -1,2 +1,2 @@
-<h3> AWS Associate Cloud Practitioner </h3>
+<h3> AWS Solution Architect Associate </h3>
 
