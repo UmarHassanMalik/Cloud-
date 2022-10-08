@@ -126,9 +126,17 @@ Data storage arhcitecture manages data as objects
 - NAT translation.
 - Target VPC route tables to connect to internet routeable traffic.
 
-<h3> Bastions <h3>
+<h3> Bastions </h3>
  
  They are EC2 instances in a private subnet and security hardened. They give access to EC2 instances via SSH/RCP.
+ 
+ <h3> Direct Connect <h3>
+ 
+ Its a very fast network. its an AWS solution for building dedicated netowrk from on-premises locations.
+ 
+ ![image](https://user-images.githubusercontent.com/58930229/194720993-455cd9b1-fa67-46b4-ac9c-965ed4dfd288.png)
+ 
+ 
  
  
  
