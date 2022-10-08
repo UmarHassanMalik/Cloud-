@@ -162,6 +162,14 @@ It can be created for
 - VPC. 
 - Network interface.
 
+![image](https://user-images.githubusercontent.com/58930229/194722409-b7d99389-bb8e-4a3b-a59d-667d036d10b8.png)
+
+
+<h3> NACL </h3>
+
+Network Access control list contains set of rules which allows or deny network traffic into or out of a subnet.
+
+
 
 
  
