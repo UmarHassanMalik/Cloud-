@@ -33,7 +33,7 @@ Data storage arhcitecture manages data as objects
 - It contains key, value, version ID and metadata.
 - We can store data upto 5 Terabytes.
 
-<h3? S3 Buckets </h3>
+<h3> S3 Buckets </h3>
 
 - S3 bucket hold object. Its a universal namespace so their name must be unique.
 
