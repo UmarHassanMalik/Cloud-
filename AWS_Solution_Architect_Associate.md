@@ -338,10 +338,11 @@ Placement Groups let us choose the logical placement of our instances to optimiz
  Amazon Machine Image provides an information required to launch an instance.
  It contains; 
 
-- Volumes, EBS snapshot
+- Volumes, EBS snapshot.
 - Operating System, servers information.
  
- 
+ ![image](https://user-images.githubusercontent.com/58930229/194774184-ff8b751f-bf96-40ed-af2d-38906263b097.png)
+
  
  
  
