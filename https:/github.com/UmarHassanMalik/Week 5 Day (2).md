@@ -178,6 +178,19 @@ It has no deny rules. Acts as a virtual firewall at instance level.
 
 Network address translation remaps the Private IP addresses in a private network to gain the outbound access to the internet.
 
+<h3> Identity Access Management (IAM) </h3>
+
+I am allows management of access of users and resources which includes;
+
+- User
+- Roles
+- Groups
+- Policies
+
+
+
+
+
 
 
 
