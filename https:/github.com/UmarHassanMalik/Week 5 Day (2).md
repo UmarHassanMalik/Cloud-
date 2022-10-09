@@ -189,6 +189,39 @@ I am allows management of access of users and resources which includes;
 - MFA 
 - Permissions
 
+<h3> Amazon Cognito </h3>
+
+Decentralized Managed Authentication.
+Signup Sign in integration with our apps.
+Providers  - Google -Facebook.
+
+- Cognito User Profiles
+- Cognito Identity Pools
+- Cognito Sync.
+
+Web Identity Federation 
+
+Identity Security information exchange between identity providers.
+Identity providers (IDP) could be; Google, facebook, github, linkedIn etc.
+
+Types of Providers 
+
+SAML  Security assertion markup language. (Single Sign on)
+
+User Pools
+
+User directories to manage the actions for web and mobile apps. like
+
+- Signin
+- Sign up 
+- Confirmation
+- Recovery
+
+
+
+
+
+
 
 
 
