@@ -227,6 +227,16 @@ User directories to manage the actions for web and mobile apps. like
 - Create, list buckets, upload data. 
 - Update security groups, create/update subnets. 
 - Setting up VPS, create and terminate.
+
+<h3> AWS SDK </h3>
+
+AWS Software Development kit is used for controlling AWS services through different programming languages.
+
+<h3> AWS Cloud9 <h3> 
+
+ AWS Cloud9 allows us to write and debug a code with just a browser. 
+ 
+
  
  
 
