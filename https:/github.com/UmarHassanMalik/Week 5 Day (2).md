@@ -239,6 +239,27 @@ Programatic access must be enabled per user via IAM to access CLI or SDK.
 
  AWS Cloud9 allows us to write and debug a code with just a browser. 
  
+ <h3> Domain Name System DNS </h3>
+ 
+ It is a service which handles converting a domain name into a routable IP address.
+ 
+- IPV4 (192.168.150.15)
+- IPV6 (2001:db8:3333:4444:5555:6666:7777:8888)
+ 
+ Top Level domains. example.com
+ Second level domains. example.com.uk
+ 
+ Record DNS:  It converts domain names with IP addresses.
+ CNAME Records: It converts a domain name into another domain name.
+ 
+ TTL: The time in which DNS record will be cached.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
  
  
