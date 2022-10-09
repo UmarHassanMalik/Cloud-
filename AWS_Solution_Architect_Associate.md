@@ -356,6 +356,16 @@ Amazon EC2 Auto Scaling helps us ensure that we have the correct number of Amazo
  Health check replacements.
  
  Scaling policies.
+ 
+ <h3> Elastic Load Balancer </h3>
+ 
+Distribute network traffic to improve application scalability.
+
+<b> ELB Types </b>
+- Application Load balancer
+- Gateway Load balancer
+- Network Load balancer
+
 
 
  
