@@ -258,6 +258,15 @@ Programatic access must be enabled per user via IAM to access CLI or SDK.
  
 It is a cloud based highly scaleable and available DNS. It allows us to register, manage domains and create routing rules.
  
+- Route Traffic to our web app.
+- Route traffic to an instance.
+- Route traffic to an API Gateway.
+- Route traffic to a cloudfront.
+- Route traffic to an elastic IP.
+ 
+ 
+
+ 
  
  
  
