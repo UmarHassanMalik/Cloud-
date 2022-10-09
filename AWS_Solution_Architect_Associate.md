@@ -378,6 +378,11 @@ Distribute network traffic to improve application scalability.
 
 ![image](https://user-images.githubusercontent.com/58930229/194775073-44fb9dda-93e9-47de-813b-e31b91d54b38.png)
 
+<h3> Sticky Session </h3>
+
+Its an advanced load balancing method which allow us to bind a user session to a specific EC2 instance.
+
+
 
 
  
