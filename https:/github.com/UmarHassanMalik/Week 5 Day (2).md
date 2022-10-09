@@ -231,6 +231,9 @@ User directories to manage the actions for web and mobile apps. like
 <h3> AWS SDK </h3>
 
 AWS Software Development kit is used for controlling AWS services through different programming languages.
+It is a set of API libraries that let us integrate AWS Services to our application.
+Installed via python script.
+Programatic access must be enabled per user via IAM to access CLI or SDK.
 
 <h3> AWS Cloud9 <h3> 
 
