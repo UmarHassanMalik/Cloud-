@@ -340,58 +340,18 @@ Placement Groups let us choose the logical placement of our instances to optimiz
 
 - Volumes, EBS snapshot.
 - Operating System, servers information.
+- Some are region specific, variation across regions.
+- Architecture (32,64).
  
  ![image](https://user-images.githubusercontent.com/58930229/194774184-ff8b751f-bf96-40ed-af2d-38906263b097.png)
-
  
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
+ <h3>Amazon EC2 Autoscaling Groups</h3>
+  
+Amazon EC2 Auto Scaling helps us ensure that we have the correct number of Amazon EC2 instances available to handle the load for our application. You create collections of EC2 instances, called Auto Scaling groups. We can specify the minimum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that our group never goes below this size. We can specify the maximum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that our group never goes above this size.  
  
  
 
  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
- 
- 
- 
- 
- 
-
-
-
 
 
 
