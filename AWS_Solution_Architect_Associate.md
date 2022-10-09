@@ -367,6 +367,15 @@ Distribute network traffic to improve application scalability.
 - Network Load balancer
 
 
+![image](https://user-images.githubusercontent.com/58930229/194775029-cf2cb8ee-e8b8-47f4-b6c5-6ea76eb34451.png)
+
+
+![image](https://user-images.githubusercontent.com/58930229/194775058-cb4b5130-f37a-4cde-8565-38c8e1828009.png)
+
+
+![image](https://user-images.githubusercontent.com/58930229/194775073-44fb9dda-93e9-47de-813b-e31b91d54b38.png)
+
+
 
  
 
