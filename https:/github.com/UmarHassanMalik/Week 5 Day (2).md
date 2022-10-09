@@ -254,6 +254,10 @@ Programatic access must be enabled per user via IAM to access CLI or SDK.
  
  TTL: The time in which DNS record will be cached.
  
+ <h3> Route53 </h3>
+ 
+It is a cloud based highly scaleable and available DNS. It allows us to register, manage domains and create routing rules.
+ 
  
  
  
