@@ -97,19 +97,21 @@ Data storage arhcitecture manages data as objects
 - IP4 Cidr Block.
 - DNS hostnames.
 
+![image](https://user-images.githubusercontent.com/58930229/194781012-3e9a1269-1001-4059-a8c3-fde77fffd108.png)
+
 
 <h3> VPC Features </h3>
 
 - AWS has default VPC with default settings.
-
-<b> Example </b> 
-
 - Default DHCP 
 - Default Security group.
 - Default network access control list.
 - VPC size /16 IPv4 CIDR Block.
 - Has route table. 
 - Default subnet /20 in each zone.
+
+![image](https://user-images.githubusercontent.com/58930229/194781012-3e9a1269-1001-4059-a8c3-fde77fffd108.png)
+
 
 <h3> VPC Peering </h3>
 
