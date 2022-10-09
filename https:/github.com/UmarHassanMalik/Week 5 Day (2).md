@@ -322,6 +322,17 @@ Placement Groups let us choose the logical placement of our instances to optimiz
 - Spread
 
 
+<h3> EC2 Pricing Model </h3>
+
+- On Demand 
+- Reserve
+- Spot
+- Dedicated
+
+<h3> Dedicated Host Instances </h3>
+
+- Multi Tenant --- virtual isolation
+- Single Tenant --- Physical isolation
  
  
  
