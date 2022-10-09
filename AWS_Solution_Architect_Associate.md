@@ -352,7 +352,9 @@ Amazon EC2 Auto Scaling helps us ensure that we have the correct number of Amazo
  It occurs via;
  
  Capacity. 
+ 
  Health check replacements.
+ 
  Scaling policies.
 
 
