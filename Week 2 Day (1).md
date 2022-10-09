@@ -51,6 +51,14 @@ Additionally, There are two types of scaling i.e. horizontal and vertical scalin
 <h3>Amazon EC2 Autoscaling Groups</h3>
   
 Amazon EC2 Auto Scaling helps us ensure that we have the correct number of Amazon EC2 instances available to handle the load for our application. You create collections of EC2 instances, called Auto Scaling groups. We can specify the minimum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that our group never goes below this size. We can specify the maximum number of instances in each Auto Scaling group, and Amazon EC2 Auto Scaling ensures that our group never goes above this size.  
+
+<h3> EC2 Pricing Model <h3>
+
+- On Demand 
+- Reserve
+- Spot
+- Dedicated
+  
   
   
   
