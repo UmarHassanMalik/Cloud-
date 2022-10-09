@@ -187,6 +187,10 @@ I am allows management of access of users and resources which includes;
 - Groups
 - Policies
 - MFA 
+- Permissions
+
+
+
 
 
 
