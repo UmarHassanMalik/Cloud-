@@ -264,6 +264,22 @@ It is a cloud based highly scaleable and available DNS. It allows us to register
 - Route traffic to a cloudfront.
 - Route traffic to an elastic IP.
  
+Alias Record
+Record Set
+ 
+<h3> Routing Policies </h3>
+- Simple Routing 
+- Weighted Routing --- Split up traffic based on different weight defined
+- Latency Based Routing ---directs based on lowest network latency possible for our end user (bassed on region).
+- Failover Routing --- allows us to create a primary site in one location and a secondary recovery site on another location.
+- Geolocation Routing --- Directs traffic based on geo-graphical location where the request generated.
+- Geo Proximity Routing --- select customs region and set custom co ordinates. 
+- Multi Value Answer Routing
+ 
+ Traffic Flow ---- Visual Editor to create routing configurations for resources using existing routing types.
+ Health Checks --- A health check can initial a failover if the status is unhealthy.
+ 
+ 
  
  
  
