@@ -235,7 +235,7 @@ It is a set of API libraries that let us integrate AWS Services to our applicati
 Installed via python script.
 Programatic access must be enabled per user via IAM to access CLI or SDK.
 
-<h3> AWS Cloud9 <h3> 
+<h3> AWS Cloud9 </h3> 
 
  AWS Cloud9 allows us to write and debug a code with just a browser. 
  
@@ -287,6 +287,8 @@ Record Set
  Traffic Flow ---- Visual Editor to create routing configurations for resources using existing routing types.
  
  Health Checks --- A health check can initial a failover if the status is unhealthy.
+ 
+ 
  
  
  
