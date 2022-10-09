@@ -384,6 +384,12 @@ Distribute network traffic to improve application scalability.
 
 Its an advanced load balancing method which allow us to bind a user session to a specific EC2 instance.
 
+<h3> Elastic File System </h3>
+
+Scalable, elastic, cloud native, NFS file system.
+
+Attach a single file system to multiple EC2 instances.
+
 
 
 
