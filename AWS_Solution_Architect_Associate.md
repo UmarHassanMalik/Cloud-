@@ -333,6 +333,13 @@ Placement Groups let us choose the logical placement of our instances to optimiz
 
 - Multi Tenant --- virtual isolation
 - Single Tenant --- Physical isolation
+
+<h3> AWS AMI </h3>
+ Amazon Machine Image provides an information required to launch an instance.
+ It contains; 
+
+- Volumes, EBS snapshot
+- Operating System, servers information.
  
  
  
