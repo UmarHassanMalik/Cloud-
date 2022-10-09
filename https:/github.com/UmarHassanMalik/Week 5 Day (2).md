@@ -217,7 +217,7 @@ User directories to manage the actions for web and mobile apps. like
 - Confirmation
 - Recovery
 
-<h3> AWS CLI <h3>
+<h3> AWS CLI </h3>
  
  AWS CLI let us iteract with AWS services from anywhere through command line interface. 
  
