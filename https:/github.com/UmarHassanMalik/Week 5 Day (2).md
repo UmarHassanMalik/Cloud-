@@ -301,6 +301,19 @@ Record Set
 - Security; such as firewalls and managing IP addresses ranges, ports and protocols through security groups. Secure login information, with private and public key.  
 - Creating our own private network, through virtual private cloud service.  
 - Persistant storage options i.e Elastic block storage.
+
+<h3> Instances Types </h3>
+
+Amazon provides variety of Instances types which are optimized for difference use cases. Instances types contains diverse combinations and types of CPU, memory , network
+capacity with flexibility that gives us mixture of different resources to run our application.
+
+- General Purpose
+- Compute Optimized
+- Memory Optimized
+- Storage Optimized
+- Accelerated Computing
+
+
  
  
  
