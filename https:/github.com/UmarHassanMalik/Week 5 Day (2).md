@@ -265,6 +265,8 @@ It is a cloud based highly scaleable and available DNS. It allows us to register
 - Route traffic to an elastic IP.
  
  
+ 
+ 
 
  
  
