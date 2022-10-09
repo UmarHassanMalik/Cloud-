@@ -217,6 +217,19 @@ User directories to manage the actions for web and mobile apps. like
 - Confirmation
 - Recovery
 
+<h3> AWS CLI <h3>
+ 
+ AWS CLI let us iteract with AWS services from anywhere through command line interface. 
+ 
+ For Example we can;
+ 
+- Launch, start, stop, terminate EC2 Instance
+- Create, list buckets, upload data. 
+- Update security groups, create/update subnets. 
+- Setting up VPS, create and terminate.
+ 
+ 
+
 
 
 
