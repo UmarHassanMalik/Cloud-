@@ -313,6 +313,14 @@ capacity with flexibility that gives us mixture of different resources to run ou
 - Storage Optimized
 - Accelerated Computing
 
+<h3> Placement Groups </h3>
+
+Placement Groups let us choose the logical placement of our instances to optimize for communication, performance and durability. Properties based on:
+
+- Cluster 
+- Partition 
+- Spread
+
 
  
  
