@@ -13,7 +13,7 @@ CloudWatch allows you to collect, access, and correlate this data on a single pl
 
 CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, and visualizes it using automated dashboards so you can get a unified view of your AWS resources, applications, and services that run on AWS and on premises.
 
-We can vhe experience of your application end users and validate design choices through experimentation. Correlate your metrics and logs to better understand the health and performance of your resources. Create alarms based on metric value thresholds you specify, or alarm
+We can visualize the experience of our application end users and validate design choices through experimentation. Correlate our metrics and logs to better understand the health and performance of our resources. Create alarms based on metric value thresholds we specify, or alarm.
 
 
 
