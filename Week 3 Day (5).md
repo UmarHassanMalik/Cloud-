@@ -5,6 +5,8 @@
 
 CloudWatch allows us to collect, access, and correlate this data on a single platform from across all your AWS resources, applications, and services running on AWS and on-premises, helping us break down data silos to gain system-wide visibility and quickly resolve issue.
 
+<h3> Advantages </h3>
+
 <h3> Collect Metrics </h3>
 
 - CloudWatch natively integrates with more than 70 AWS services.
