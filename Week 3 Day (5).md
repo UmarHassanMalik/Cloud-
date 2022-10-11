@@ -1,11 +1,17 @@
 
 <h2>  CloudWatch </h2>
 
+
+- Amazon CloudWatch is a monitoring and observability service built for DevOps engineers, developers, site reliability engineers, IT managers, and product owners.
+- CloudWatch provides us with data and actionable insights to monitor our applications, respond to system-wide performance changes, and optimize resource utilization.
+- CloudWatch collects monitoring and operational data in the form of logs, metrics, and events.
+- Get a unified view of operational health and gain complete visibility of our AWS resources, applications, and services running on AWS and on-premises
+
+<h3> Advantages </h3>
+
 <h3> Single platform to observe </h3>
 
 CloudWatch allows us to collect, access, and correlate this data on a single platform from across all your AWS resources, applications, and services running on AWS and on-premises, helping us break down data silos to gain system-wide visibility and quickly resolve issue.
-
-<h3> Advantages </h3>
 
 <h3> Collect Metrics </h3>
 
@@ -32,7 +38,7 @@ CloudWatch allows us to collect, access, and correlate this data on a single pla
 
 - Explore, analyze, and visualize logs.
 - Troubleshoot operational problems with ease.
-- Scales with our log volume and query complexity, giving you answers in seconds.
+- Scales with our log volume and query complexity, giving us answers in seconds.
 - Dashboards for complete operational visibility.
 - We can publish log-based metrics, create alarms, and correlate logs and metrics together in CloudWatch.
 
@@ -40,7 +46,7 @@ CloudWatch allows us to collect, access, and correlate this data on a single pla
 
 <h3> Working </h3> 
 
-CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, and visualizes it using automated dashboards so you can get a unified view of your AWS resources, applications, and services that run on AWS and on premises.
+CloudWatch collects monitoring and operational data in the form of logs, metrics, and events, and visualizes it using automated dashboards so we can get a unified view of our AWS resources, applications, and services that run on AWS and on premises.
 
 We can visualize the experience of our application end users and validate design choices through experimentation. Correlate our metrics and logs to better understand the health and performance of our resources. Create alarms based on metric value thresholds we specify, or alarm.
 
