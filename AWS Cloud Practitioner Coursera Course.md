@@ -415,3 +415,229 @@ To attach an Amazon EC2 instance to an EBS volume, both the Amazon EC2 instance 
 Amazon EFS is a regional service. It stores data in and across multiple Availability Zones. 
 
 The duplicate storage enables you to access data concurrently from all the Availability Zones in the Region where a file system is located. Additionally, on-premises servers can access Amazon EFS using AWS Direct Connect.
+
+
+<h2> Module 6 </h2> 
+
+<h3> Shared Responsibility Model </h3>
+- AWS is responsible for some parts of your environment and you (the customer) are responsible for other parts. This concept is known as the shared responsibility model.
+- Customer responsibilities ( security in the cloud)
+   - maintain complete control over your content. 
+   - You are responsible for managing security requirements for your content, including which content you choose to store on AWS
+   - Services which you are using
+- AWS responsibilities(security of the cloud)
+  - protecting the global infrastructure that runs all of the services offered in the AWS Cloud
+  - Specifically the physical infrastructure that hosts your resources
+
+
+<h3> 5. IAM Groups </h3>
+collection of IAM users
+assign an IAM policy to a group, all users in the group are granted permissions specified by the policy.
+
+
+<h3> 6. IAM Roles</h3>
+An IAM role is an identity that you can assume to gain temporary access to permissions.  
+IAM roles are ideal for situations in which access to services or resources needs to be granted temporarily, instead of long-term.  
+
+<h3> 7. Multi-factor Authentication</h3>
+You can enable MFA for the root user and IAM users. As a best practice, enable MFA for the root user and all IAM users in your account. By doing this, you can keep your AWS account safe from unauthorized access.
+
+
+<h3> AWS Organizations </h3>
+When you create an organization, AWS Organizations automatically creates a root, which is the parent container for all the accounts in your organization. 
+
+In AWS Organizations, you can centrally control permissions for the accounts in your organization by using **service control policies (SCPs)**. SCPs enable you to place restrictions on the AWS services, resources, and individual API actions that users and roles in each account can access.
+
+<h3> Organizational Units</h3>
+Converting whole organizations into the Sub Parts or units for managing them indivisual.
+
+
+<h3> Compliance</h3>
+<h3> 1. AWS Artifact
+- An audit or inspection will ensure that the company has met those standards.
+- provides on-demand access to AWS security and compliance reports and select online agreements. AWS Artifact consists of two main sections: 
+   - AWS Artifact Agreements
+   review, accept, and manage agreements for an individual account and for all your accounts in AWS Organizations
+
+   - AWS Artifact Reports
+           - AWS Artifact Reports provide compliance reports from third-party auditors.
+           -  These auditors have tested and verified that AWS is compliant with a variety of global, regional, and industry-specific security standards and regulations. 
+           -  AWS Artifact Reports remains up to date with the latest reports released. 
+<h3> Denial-of-Service Attacks</h3>
+- A denial-of-service (DoS) attack is a deliberate attempt to make a website or application unavailable to users.
+
+<h3> AWS Shield</h3>
+AWS Shield is a service that protects applications against DDoS attacks. AWS Shield provides two levels of protection: Standard and Advanced.
+
+1. **AWS Shield Standard**
+- AWS Shield Standard automatically protects all AWS customers at no cost. It protects your AWS resources from the most common, frequently occurring types of DDoS attack. 
+- AWS Shield Standard uses a variety of analysis techniques to detect malicious traffic in real time and automatically mitigates it. 
+2. **AWS Shield Advanced**
+- AWS Shield Advanced is a paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks. 
+- It also integrates with other services such as Amazon CloudFront, Amazon Route 53, and Elastic Load Balancing. Additionally, you can integrate AWS Shield with AWS WAF by writing custom rules to mitigate complex DDoS attacks.
+
+<h3> Additional Security Services</h3>
+- **AWS Key Management Service (AWS KMS)**
+AWS Key Management Service (AWS KMS) enables you to perform encryption operations through the use of cryptographic keys. 
+- **AWS WAF**
+   - AWS WAF is a web application firewall that lets us monitor network requests that come into our web applications. 
+   - AWS WAF works together with Amazon CloudFront and an Application Load Balancer.
+   
+- **Amazon Inspector**
+Amazon Inspector helps to improve the security and compliance of applications by running automated security assessments. It checks applications for security vulnerabilities and deviations from security best practices, such as open access to Amazon EC2 instances and installations of vulnerable software versions. 
+- **Amazon GuardDuty**
+Amazon GuardDuty is a service that provides intelligent threat detection for our AWS infrastructure and resources. It identifies threats by continuously monitoring the network activity and account behavior within our AWS environment.
+If GuardDuty detects any threats, you can review detailed findings about them from the AWS Management Console. 
+
+
+
+
+
+<h2> MODULE 7 </h2>
+
+<h3> Amazon CloudWatch</h3>
+- Amazon CloudWatch is a web service that enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics.
+- CloudWatch uses metrics to represent the data points for our resources. AWS services send metrics to CloudWatch. CloudWatch then uses these metrics to create graphs automatically that show how performance has changed over time.
+
+<h3> CloudWatch Alarms</h3>
+ CloudWatch Alarms that automatically perform actions if the value of our metric has gone above or below a predefined threshold. 
+ 
+ <h3> AWS CloudTrail</h3>
+ AWS CloudTrail records API calls for our account.
+ In the CloudTrail Event History section, the owner applies a filter to display only the events for the “CreateUser” API action in IAM.
+ 
+ <h3> CloudTrail Insights</h3>
+ This optional feature allows CloudTrail to automatically detect unusual API activities in our AWS account. 
+ 
+ <h3> AWS Trusted Advisor</h3>
+ AWS Trusted Advisor is a web service that inspects our AWS environment and provides real-time recommendations in accordance with AWS best practices.
+ When you access the Trusted Advisor dashboard on the AWS Management Console, you can review completed checks for cost optimization, performance, security, fault tolerance, and service limits.
+
+
+   - The green check indicates the number of items for which it detected no problems
+
+   - The orange triangle represents the number of recommended investigations
+
+   - The red circle represents the number of recommended actions
+
+
+<h2> MODULE 8 </h2>
+
+
+
+<h3> AWS Free Tier</h3>
+The AWS Free Tier enables you to begin using certain services without having to worry about incurring costs for the specified period. 
+Three types of offers are available: 
+
+- Always Free
+AWS Lambda allows 1 million free requests and up to 3.2 million seconds of compute time per month. Amazon DynamoDB allows 25 GB of free storage per month.
+- 12 Months Free
+
+- Trials ( offers 750 free hours of usage over a 30-day period.)
+
+<h3> Billing Dashboard<h3>
+Use the AWS Billing & Cost Management dashboard to pay our AWS bill, monitor our usage, and analyze and control yur costs.
+
+- Compare our current month-to-date balance with the previous month, and get a forecast of the next month based on current usage.
+
+- View month-to-date spend by service.
+
+- View Free Tier usage by service.
+
+- Access Cost Explorer and create budgets.
+
+- Purchase and manage Savings Plans.
+
+- Publish AWS Cost and Usage Reports.
+
+<h3> AWS Budgets</h3>
+- In AWS Budgets,  we can create budgets to plan our service usage, service costs, and instance reservations.
+- The information in AWS Budgets updates three times a day. This helps we to accurately determine how close our usage is to yur budgeted amounts or to the AWS Free Tier limits.
+
+<h3> AWS Cost Explorer</h3>
+- AWS Cost Explorer is a tool that enables us to visualize, understand, and manage our AWS costs and usage over time.
+- AWS Cost Explorer includes a default report of the costs and usage for our top five cost-accruing AWS services. we can apply custom filters and groups to analyze our data. For example, we can view resource usage at the hourly level.
+
+<h3> AWS Support Plans</h3>
+- Basic
+
+- Developer
+
+- Business
+
+- Enterprise On-Ramp
+
+- Enterprise
+
+
+
+<h2> MODULE 9</h2>
+
+
+
+<h3> AWS Snow Family</h3>
+The AWS Snow Family is a collection of physical devices that help to physically transport up to exabytes of data into and out of AWS. 
+AWS Snowcone is a small, rugged, and secure edge computing and data transfer device. 
+
+<h3> Snowball Edge Storage Optimized</h3>
+devices are well suited for large-scale data migrations and recurring transfer workflows, in addition to local computing with higher capacity needs. Snowball Edge Storage Optimized provides 80 TB of HDD capacity for block volumes and Amazon S3-compatible object storage, and 1 TB of SATA SSD for block volumes.
+
+<h3> Snowball Edge Compute Optimized</h3>
+provides powerful computing resources for use cases such as machine learning, full motion video analysis, analytics, and local computing stacks. 
+
+<h3> AWS Snowmobile<h3>
+AWS Snowmobile is an exabyte-scale data transfer service used to move large amounts of data to AWS. 
+
+we can transfer up to 100 petabytes of data per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi trailer truck.
+
+# Migration and Innovation
+<h3> AWS Cloud Adoption Framework (AWS CAF)</h3>
+- Business Perspective => IT aligns with business needs and that IT investments link to key business results.
+- People Perspective => upports development of an organization-wide change management strategy for successful cloud adoption.
+- Governance Perspective =>  focuses on the skills and processes to align IT strategy with business strategy. This ensures that we maximize the business value and minimize risks.
+- Platform Perspective =>  includes principles and patterns for implementing new solutions on the cloud, and migrating on-premises workloads to the cloud.
+- Security Perspective => ensures that the organization meets security objectives for visibility, auditability, control, and agility. 
+- Operations Perspective => helps us to enable, run, use, operate, and recover IT workloads to the level agreed upon with our business stakeholders.
+
+<h3> Migration Strategies</h3>
+- **Rehosting**
+involves moving applications without changes. 
+- **Replatforming**
+ involves making a few cloud optimizations to realize a tangible benefit. Optimization is achieved without changing the core architecture of the application.
+- **Refactoring/re-architecting**
+involves reimagining how an application is architected and developed by using cloud-native features. Refactoring is driven by a strong business need to add features, scale, or performance that would otherwise be difficult to achieve in the application’s existing environment.
+- **Repurchasing**
+involves moving from a traditional license to a software-as-a-service model. 
+- **Retaining**
+consists of keeping applications that are critical for the business in the source environment. This might include applications that require major refactoring before they can be migrated, or, work that can be postponed until a later time.
+- **Retiring**
+process of removing applications that are no longer needed.
+
+<h2> MODULE 10 </h2>
+
+<h3>AWS Well-Architected Framework</h3>
+design and operate reliable, secure, efficient, and cost-effective systems in the AWS Cloud. It provides a way for us to consistently measure our architecture against best practices and design principles and identify areas for improvement.
+<h3>- **Operational excellence** -</h3> 
+ is the ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.  
+ 
+ 
+
+<h3>- **Cost optimization** - </h3>
+Cost optimization is the ability to run systems to deliver business value at the lowest price point. 
+- **Sustainability** - 
+Sustainability is the ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.
+
+<h3>- **Security** - </h3>
+The Security pillar is the ability to protect inf
+<h3>- **Reliability** - </h3>
+    - Recover from infrastructure or service disruptions
+
+    - Dynamically acquire computing resources to meet demand
+
+    -  Mitigate disruptions such as misconfigurations or transient network issues
+<h3>- **Performance efficiency** - </h3>
+ Performance efficiency is the ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve. 
+
+
+
+
