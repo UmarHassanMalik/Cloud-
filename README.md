@@ -34,3 +34,5 @@
 16- [Global Networking in AWS, Subnets and Network Access Control list in context with AWS ](https://github.com/UmarHassanMalik/Cloud-/edit/main/Week%204%20Day%20(4).md)
 
 17- [AWS Solution Architect Associate ](https://github.com/UmarHassanMalik/Cloud-/blob/main/AWS_Solution_Architect_Associate.md)
+
+18- [AWS Cloud Practitioner Coursera Course ](https://github.com/UmarHassanMalik/Cloud-/blob/main/AWS%20Cloud%20Practitioner%20Coursera%20Course.md)
