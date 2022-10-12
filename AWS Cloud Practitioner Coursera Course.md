@@ -14,6 +14,35 @@ Basically, A client can be a web browser or an application through which a user/
 
 A client (web browser) makes a request for a file (i.e picture, video etc.) to server and then server evaluates the details and respond the request accordingly. 
 
+<h3> Deployment Models </h3>
+
+There are three cloud computing deployment models.
+
+- Cloud-based
+- On-premises
+- Hybrid. 
+
+<h3> Cloud-based Deployment </h3>
+
+- Run whole application on cloud.
+- We can migrate our application to cloud.
+- We can build new applications on cloud.
+
+<h3> Hybrid Deployment </h3>
+
+Cloud-based resources are connected to on-premises infrastructure.  For example, we have legacy applications that are better maintained on premises, banks, military or government regulations require our business to keep certain records on premises.
+
+<h3> On Premisis Deployment </h3>
+It is a private cloud deployment. Resources are deployed on premises by using virtualization technologies and resource management tools.
+
+<h3> Advantages of Cloud Computing </h3>
+
+<h3> Accessability </h3>
+We can deploy our application to different parts of the world .If we are located in a different part of the world than your customers, customers are able to access your applications with minimal delays.
+
+
+
+
 
 
 
