@@ -74,8 +74,22 @@ Computing in data centers requires us to spend more money and time managing infr
 - Launch Amazon EC2 instance(s) within minutes.
 - Pay for server capacity that we need or want.
 - Pay only for server capacity that we need or want. no cost for the terminated/stopped instances.
-- Stop using it when we have finished running a workload
+- Stop using it when we have finished running a workload.
 
+
+<h3> Steps to Use EC2 </h3>
+
+<h3> Launch </h3>
+
+First, we launch an instance by selecting a template with basic configurations for our instance. The configurations can be related to OS, application, server, instance type.
+
+<h3> Connect </h3>
+
+After that we connect to the instance which can be done in different ways. Oour programs and applications have multiple different methods to connect directly to the instance and exchange data i.e login/ accessing through PC.
+
+<h3> Use </h3>
+
+After connecting to the instance we can run commands/scripts to install software, add storage, copy and organize files etc.
 
 
 
