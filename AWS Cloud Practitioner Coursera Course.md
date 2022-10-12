@@ -535,7 +535,7 @@ AWS Lambda allows 1 million free requests and up to 3.2 million seconds of compu
 
 - Trials ( offers 750 free hours of usage over a 30-day period.)
 
-<h3> Billing Dashboard<h3>
+<h3> Billing Dashboard</h3>
 Use the AWS Billing & Cost Management dashboard to pay our AWS bill, monitor our usage, and analyze and control yur costs.
 
 - Compare our current month-to-date balance with the previous month, and get a forecast of the next month based on current usage.
@@ -585,7 +585,7 @@ devices are well suited for large-scale data migrations and recurring transfer w
 <h3> Snowball Edge Compute Optimized</h3>
 provides powerful computing resources for use cases such as machine learning, full motion video analysis, analytics, and local computing stacks. 
 
-<h3> AWS Snowmobile<h3>
+<h3> AWS Snowmobile</h3>
 AWS Snowmobile is an exabyte-scale data transfer service used to move large amounts of data to AWS. 
 
 we can transfer up to 100 petabytes of data per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi trailer truck.
