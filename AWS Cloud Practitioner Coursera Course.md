@@ -306,7 +306,21 @@ It facilitate us with infrastructure as code  environment by writing lines of co
 AWS CloudFormation provisions your resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications without having to perform manual actions or write custom scripts. It determines the right operations to perform when managing your stack and rolls back changes automatically if it detects errors.
 
 
+<h2> MODULE 4 <h2>
 
+<h3> Amazon Virtual Private Cloud <h3>
+
+A networking service that you can use to establish boundaries around your AWS resources is Amazon Virtual Private Cloud (Amazon VPC).
+  
+Amazon VPC enables you to provision an isolated section of the AWS Cloud. In this isolated section, you can launch resources in a virtual network that you define. Within a virtual private cloud (VPC), you can organize your resources into subnets. A subnet is a section of a VPC that can contain resources such as Amazon EC2 instances.
+  
+<h3> Internet gateway </h3>
+  
+To allow public traffic from the internet to access your VPC, you attach an internet gateway to the VPC.
+  
+<h3> AWS Direct Connect </h3>
+  
+AWS Direct Connect is a service that enables you to establish a dedicated private connection between your data center and a VPC.  
 
 
 
