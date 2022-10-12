@@ -289,6 +289,21 @@ Another option for accessing and managing AWS services is the software developme
 
 <h3>AWS Elastic Beanstalk</h3>
 
+Provides code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform the following tasks:
+
+Adjust capacity
+
+Load balancing
+
+Automatic scaling
+
+Application health monitoring
+
+<h3> AWS CloudFormation </h3>
+
+It facilitate us with infrastructure as code  environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
+
+AWS CloudFormation provisions your resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications without having to perform manual actions or write custom scripts. It determines the right operations to perform when managing your stack and rolls back changes automatically if it detects errors.
 
 
 
