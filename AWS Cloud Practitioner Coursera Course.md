@@ -264,6 +264,15 @@ Pricing
 
 Suppose that you are considering running applications in both the United States and Brazil. The way Brazil’s tax structure is set up, it might cost 50% more to run the same workload out of the São Paulo Region compared to the Oregon Region. You will learn in more detail that several factors determine pricing, but for now know that the cost of services can vary from Region to Region.
   
+<h3> Availability Zone </h3>  
+
+An Availability Zone is a single data center or a group of data centers within a Region. Availability Zones are located tens of miles apart from each other. This is close enough to have low latency (the time between when content requested and received) between Availability Zones. However, if a disaster occurs in one part of the Region, they are distant enough to reduce the chance that multiple Availability Zones are affected.
+
+<h3> Edge Locations </h3>
+
+For example if our company’s data is stored in Brazil, and you have customers who live in UK. To provide content to these customers, you don’t need to move all the content to one of the UKs Regions.
+Instead of requiring your customers to get their data from Brazil, you can cache a copy locally at an edge location that is close to your customers in UK.
+
 
 
 
