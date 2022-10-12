@@ -92,6 +92,40 @@ After that we connect to the instance which can be done in different ways. Oour 
 After connecting to the instance we can run commands/scripts to install software, add storage, copy and organize files etc.
 
 
+<h3> Instances Types </h3>
+
+There are several types of EC2 instances.
+
+<h3> General purpose instances </h3>
+
+General purpose instances provide a balance of compute, memory, and networking resources. We can use them to handle variety of workloads such as.
+
+application servers
+
+gaming servers
+
+backend servers for enterprise applications
+
+small and medium databases
+
+<h3> Compute optimized instances </h3>
+
+Compute optimized instances are ideal for compute-bound applications that benefit from high-performance processors.
+we use them in  areas like web, application, and gaming servers.
+
+<h3> Memory optimized instances </h3>
+  
+Memory optimized instances are designed to deliver fast performance for workloads that process large datasets in memory.
+Exmple: We can handle a workload that requires large amounts of data to be preloaded before running an application such as high-performance database or a workload that involves performing real-time processing of a large amount of unstructured data.
+
+<h3> Accelerated computing instances </h3>
+
+Accelerated computing instances use hardware accelerators, or coprocessors, to perform some functions more efficiently than is possible in software running on CPUs
+
+
+
+
+
 
 
 
