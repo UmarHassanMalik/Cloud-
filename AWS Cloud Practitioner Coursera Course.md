@@ -1,7 +1,7 @@
 
 <h2> Coursera Modules </h2>
 
-<h3> Module 1 </h3>
+<h3> MODULE 1 </h3>
 
 <h3> Cloud Computing </h3>
 
@@ -48,8 +48,14 @@ We dont need to speculate that how much infrastructure capacity we will need bef
 For instance, we can launch Amazon EC2 instances when needed, and pay only for the compute time that we use.
 
 
-<h3> No headache of maintaining and running Data centers </h3>
+<h3> No headache of maintaining and running data centers </h3>
+
 Computing in data centers requires us to spend more money and time managing infrastructure and servers on the other hand, cloud computing allows us to focus less on these tasks and more on our applications and clients.
+
+
+<h2> MODULE 2 </h2>
+
+
 
 
 
