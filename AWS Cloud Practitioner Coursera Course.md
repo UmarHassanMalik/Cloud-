@@ -469,23 +469,23 @@ Converting whole organizations into the Sub Parts or units for managing them ind
 <h3> AWS Shield</h3>
 AWS Shield is a service that protects applications against DDoS attacks. AWS Shield provides two levels of protection: Standard and Advanced.
 
-1. **AWS Shield Standard**
+1. ** AWS Shield Standard **
 - AWS Shield Standard automatically protects all AWS customers at no cost. It protects your AWS resources from the most common, frequently occurring types of DDoS attack. 
 - AWS Shield Standard uses a variety of analysis techniques to detect malicious traffic in real time and automatically mitigates it. 
-2. **AWS Shield Advanced**
+2. ** AWS Shield Advanced **
 - AWS Shield Advanced is a paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks. 
 - It also integrates with other services such as Amazon CloudFront, Amazon Route 53, and Elastic Load Balancing. Additionally, you can integrate AWS Shield with AWS WAF by writing custom rules to mitigate complex DDoS attacks.
 
 <h3> Additional Security Services</h3>
-- **AWS Key Management Service (AWS KMS)**
+- ** AWS Key Management Service (AWS KMS) **
 AWS Key Management Service (AWS KMS) enables you to perform encryption operations through the use of cryptographic keys. 
-- **AWS WAF**
+- ** AWS WAF **
    - AWS WAF is a web application firewall that lets us monitor network requests that come into our web applications. 
    - AWS WAF works together with Amazon CloudFront and an Application Load Balancer.
    
-- **Amazon Inspector**
+- ** Amazon Inspector **
 Amazon Inspector helps to improve the security and compliance of applications by running automated security assessments. It checks applications for security vulnerabilities and deviations from security best practices, such as open access to Amazon EC2 instances and installations of vulnerable software versions. 
-- **Amazon GuardDuty**
+- ** Amazon GuardDuty **
 Amazon GuardDuty is a service that provides intelligent threat detection for our AWS infrastructure and resources. It identifies threats by continuously monitoring the network activity and account behavior within our AWS environment.
 If GuardDuty detects any threats, you can review detailed findings about them from the AWS Management Console. 
 
@@ -595,22 +595,34 @@ we can transfer up to 100 petabytes of data per Snowmobile, a 45-foot long rugge
 - Business Perspective => IT aligns with business needs and that IT investments link to key business results.
 - People Perspective => upports development of an organization-wide change management strategy for successful cloud adoption.
 - Governance Perspective =>  focuses on the skills and processes to align IT strategy with business strategy. This ensures that we maximize the business value and minimize risks.
-- Platform Perspective =>  includes principles and patterns for implementing new solutions on the cloud, and migrating on-premises workloads to the cloud.
-- Security Perspective => ensures that the organization meets security objectives for visibility, auditability, control, and agility. 
-- Operations Perspective => helps us to enable, run, use, operate, and recover IT workloads to the level agreed upon with our business stakeholders.
+- **Platform Perspective**  includes principles and patterns for implementing new solutions on the cloud, and migrating on-premises workloads to the cloud.
+- **Security Perspective**  ensures that the organization meets security objectives for visibility, auditability, control, and agility. 
+- **Operations Perspective **helps us to enable, run, use, operate, and recover IT workloads to the level agreed upon with our business stakeholders.
 
 <h3> Migration Strategies</h3>
-** Rehosting**
+  
+** Rehosting **
+  
 involves moving applications without changes. 
-**Replatforming**
+  
+** Replatforming **
+  
  involves making a few cloud optimizations to realize a tangible benefit. Optimization is achieved without changing the core architecture of the application.
-**Refactoring/re-architecting**
+  
+** Refactoring/re-architecting **
+  
 involves reimagining how an application is architected and developed by using cloud-native features. Refactoring is driven by a strong business need to add features, scale, or performance that would otherwise be difficult to achieve in the application’s existing environment.
-**Repurchasing**
+  
+** Repurchasing **
+  
 involves moving from a traditional license to a software-as-a-service model. 
-**Retaining**
+  
+** Retaining **
+  
 consists of keeping applications that are critical for the business in the source environment. This might include applications that require major refactoring before they can be migrated, or, work that can be postponed until a later time.
-**Retiring**
+  
+** Retiring **
+  
 process of removing applications that are no longer needed.
 
 <h2> MODULE 10 </h2>
