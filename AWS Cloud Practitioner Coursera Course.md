@@ -163,6 +163,19 @@ There are 2 type of autocaling is being used by AWS EC2 Autoscaling.
 - Dynamic Scaling responds to demand.
 
 
+<h3> Scaling Amazon EC2 </h3>
+
+Additioon of Amazon EC2 Auto Scaling to an application can add new instances to the application when necessary and terminate them when no longer needed.
+If we are preparing to launch an application on Amazon EC2 instances. When configuring the size of our Auto Scaling group, we might set the minimum number of Amazon EC2 instances at one. This means that at all times, there must be at least one Amazon EC2 instance running.
+
+When we create an Auto Scaling group, we can set the minimum number of Amazon EC2 instances. The minimum capacity is the number of Amazon EC2 instances that launch immediately after we have created the Auto Scaling group. In this example, the Auto Scaling group has a minimum capacity of one Amazon EC2 instance.
+
+Next, we can set the desired capacity at two Amazon EC2 instances even though our application needs a minimum of a single Amazon EC2 instance to run.
+
+we can set in an Auto Scaling group is the maximum capacity. For example, you might configure the Auto Scaling group to scale out in response to increased demand, but only to a maximum of four Amazon EC2 instances.
+
+We pay for only the instances we use, when we use them. We now have a cost-effective architecture that provides the best customer experience while reducing expenses.
+
 
 
 
