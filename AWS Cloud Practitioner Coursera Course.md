@@ -336,10 +336,19 @@ When a customer requests data from an application hosted in the AWS Cloud, this 
 It enters into a VPC through an internet gateway. Before a packet can enter into a subnet or exit from a subnet, it checks for permissions. These permissions indicate who sent the packet and how the packet is trying to communicate with the resources in a subnet.
 
 
-Network Access Control Lists (ACLs)
+<h3>Network Access Control Lists (ACLs)</h3>
 A network access control list (ACL) is a virtual firewall that controls inbound and outbound traffic at the subnet level.
+**
+Stateless Packet Filtering**
+Network ACLs perform stateless packet filtering. They remember nothing and check packets that cross the subnet border each way: inbound and outbound. 
 
-For example, step outside of the coffee shop and imagine that you are in an airport. In the airport, travelers are trying to enter into a different country. You can think of the travelers as packets and the passport control officer as a network ACL. The passport control officer checks travelers’ credentials when they are both entering and exiting out of the country. If a traveler is on an approved list, they are able to get through. However, if they are not on the approved list or are explicitly on a list of banned travelers, they cannot come in.
+<h3>Security Groups</h3>
+A security group is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.
+  
+By default, a security group denies all inbound traffic and allows all outbound traffic. You can add custom rules to configure which traffic to allow or deny.
+
+**Stateful Packet Filtering**
+Security groups perform stateful packet filtering. They remember previous decisions made for incoming packets.
 
 
 
