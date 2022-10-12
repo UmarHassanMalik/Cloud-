@@ -1,7 +1,7 @@
 
 <h2> Coursera Modules </h2>
 
-<h3> MODULE 1 </h3>
+<h2> MODULE 1 </h2>
 
 <h3> Cloud Computing </h3>
 
