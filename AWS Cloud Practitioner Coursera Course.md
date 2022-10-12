@@ -365,15 +365,15 @@ Amazon Route 53 connects user requests to infrastructure running in AWS (such as
 
 <h3> MODULE 5 </h3>
 
-<h3> Instance stores <h3>
+<h3> Instance stores </h3>
 Block-level storage volumes behave like physical hard drives.
 
 An instance store provides temporary block-level storage for an Amazon EC2 instance. An instance store is disk storage that is physically attached to the host computer for an EC2 instance, and therefore has the same lifespan as the instance. When the instance is terminated, you lose any data in the instance store.
 
-<h3> Amazon Elastic Block Storage  <h3>
+<h3> Amazon Elastic Block Storage  </h3>
 Amazon Elastic Block Store (Amazon EBS) is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
   
-<h3> Amazon EBS Snapshots <h3>
+<h3> Amazon EBS Snapshots </h3>
 An EBS snapshot is an incremental backup. This means that the first backup taken of a volume copies all the data. For subsequent backups, only the blocks of data that have changed since the most recent snapshot are saved.
 
 <h3> Object Storage </h3>
