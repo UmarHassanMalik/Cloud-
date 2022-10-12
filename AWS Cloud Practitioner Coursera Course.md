@@ -56,6 +56,26 @@ Computing in data centers requires us to spend more money and time managing infr
 
 <h2> MODULE 2 </h2>
 
+<h3> EC2 </h3>
+
+- Amazon EC2 or Elastic compute cloud allows user to rent virtual computer on which they can run their own applications.
+- EC2 provides scalable deployment of an application through a service (Auto scaling); in which a user can boot a Amazon machine image to configure a virtual machine.
+- A user can create as many virtual machines as he needs and paying by a second of active servers.
+
+<h3> Traditional Approach </h3>
+
+- Costs upfront to purchase hardware.
+- Wait for the servers to be delivered.
+- Installing servers in our data centers.
+- Setting of servers configuration.
+
+<h3> Using AWS EC2 </h3>
+
+- Launch Amazon EC2 instance(s) within minutes.
+- Pay for server capacity that we need or want.
+- Pay only for server capacity that we need or want. no cost for the terminated/stopped instances.
+- Stop using it when we have finished running a workload
+
 
 
 
