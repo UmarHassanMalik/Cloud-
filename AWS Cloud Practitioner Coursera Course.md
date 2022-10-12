@@ -172,9 +172,17 @@ When we create an Auto Scaling group, we can set the minimum number of Amazon EC
 
 Next, we can set the desired capacity at two Amazon EC2 instances even though our application needs a minimum of a single Amazon EC2 instance to run.
 
-we can set in an Auto Scaling group is the maximum capacity. For example, you might configure the Auto Scaling group to scale out in response to increased demand, but only to a maximum of four Amazon EC2 instances.
+we can set in an Auto Scaling group is the maximum capacity. For example, we might configure the Auto Scaling group to scale out in response to increased demand, but only to a maximum of four Amazon EC2 instances.
 
 We pay for only the instances we use, when we use them. We now have a cost-effective architecture that provides the best customer experience while reducing expenses.
+
+<h3> Elastic Load Balancer </h3>
+
+Elastic Load Balancing is the AWS service that automatically distributes incoming application traffic across multiple resources. So therefore we can utilize maximum (optimum) use of our resources by distributing the workloads to across multiple instances.
+
+A load balancer acts as a single point of contact for all incoming web traffic to your Auto Scaling group. This means that as you add or remove Amazon EC2 instances in response to the amount of incoming traffic, these requests route to the load balancer first. Then, the requests spread across multiple resources that will handle them. For example, if you have multiple Amazon EC2 instances, Elastic Load Balancing distributes the workload across the multiple instances so that no single instance has to carry the bulk of it. 
+
+ELB and Autoscaling together on EC2 can provide high performance and availability of our applications.
 
 
 
