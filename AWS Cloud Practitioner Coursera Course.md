@@ -617,25 +617,25 @@ process of removing applications that are no longer needed.
 
 <h3>AWS Well-Architected Framework</h3>
 design and operate reliable, secure, efficient, and cost-effective systems in the AWS Cloud. It provides a way for us to consistently measure our architecture against best practices and design principles and identify areas for improvement.
-<h3>- **Operational excellence** -</h3> 
+<h3> **Operational excellence** </h3> 
  is the ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.  
  
  
 
-<h3>- **Cost optimization** - </h3>
+<h3> **Cost optimization**  </h3>
 Cost optimization is the ability to run systems to deliver business value at the lowest price point. 
-- **Sustainability** - 
+<h3> **Sustainability** </h3>
 Sustainability is the ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.
 
-<h3>- **Security** - </h3>
+<h3> **Security**  </h3>
 The Security pillar is the ability to protect inf
-<h3>- **Reliability** - </h3>
+<h3> **Reliability**  </h3>
     - Recover from infrastructure or service disruptions
 
     - Dynamically acquire computing resources to meet demand
 
     -  Mitigate disruptions such as misconfigurations or transient network issues
-<h3>- **Performance efficiency** - </h3>
+<h3> **Performance efficiency** </h3>
  Performance efficiency is the ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve. 
 
 
