@@ -306,9 +306,9 @@ It facilitate us with infrastructure as code  environment by writing lines of co
 AWS CloudFormation provisions your resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications without having to perform manual actions or write custom scripts. It determines the right operations to perform when managing your stack and rolls back changes automatically if it detects errors.
 
 
-<h2> MODULE 4 <h2>
+<h2> MODULE 4 </h2>
 
-<h3> Amazon Virtual Private Cloud <h3>
+<h3> Amazon Virtual Private Cloud </h3>
 
 A networking service that you can use to establish boundaries around your AWS resources is Amazon Virtual Private Cloud (Amazon VPC).
   
@@ -322,8 +322,24 @@ To allow public traffic from the internet to access your VPC, you attach an inte
   
 AWS Direct Connect is a service that enables you to establish a dedicated private connection between your data center and a VPC.  
 
+<h3>Subnets</h3>
+
+A subnet is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private.
+
+**Public subnets** contain resources that need to be accessible by the public, such as an online store’s website.
+
+**Private subnets** contain resources that should be accessible only through your private network, such as a database that contains customers’ personal information and order histories. 
+
+**Network Traffic in a VPC**
+When a customer requests data from an application hosted in the AWS Cloud, this request is sent as a packet. A packet is a unit of data sent over the internet or a network. 
+
+It enters into a VPC through an internet gateway. Before a packet can enter into a subnet or exit from a subnet, it checks for permissions. These permissions indicate who sent the packet and how the packet is trying to communicate with the resources in a subnet.
 
 
+Network Access Control Lists (ACLs)
+A network access control list (ACL) is a virtual firewall that controls inbound and outbound traffic at the subnet level.
+
+For example, step outside of the coffee shop and imagine that you are in an airport. In the airport, travelers are trying to enter into a different country. You can think of the travelers as packets and the passport control officer as a network ACL. The passport control officer checks travelers’ credentials when they are both entering and exiting out of the country. If a traveler is on an approved list, they are able to get through. However, if they are not on the approved list or are explicitly on a list of banned travelers, they cannot come in.
 
 
 
