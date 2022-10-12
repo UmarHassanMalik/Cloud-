@@ -128,6 +128,44 @@ Examples:  floating-point number calculations, graphics processing, and data pat
 Storage optimized instances are designed for workloads that require high, sequential read and write access to large datasets on local storage.
 Examples:  Distributed file systems, data warehousing applications, and high-frequency online transaction processing system.
 
+<h3> Instances Pricing Model </h3>
+
+<h3> On-Demand </h3>
+
+The Instances are ideal for short-term, irregular workloads that cannot be interrupted. No upfront costs or minimum contracts apply.
+
+<h3> Reserved Instances </h3> 
+
+Reserved Instances are a billing discount applied to the use of On-Demand Instances in our account. We can purchase Standard Reserved and Convertible Reserved Instances for a 1-year or 3-year term
+
+<h3> Dedicated Hosts </h3> 
+
+Dedicated Hosts are physical servers with Amazon EC2 instance capacity that is fully dedicated to our use. 
+We can buy On-Demand Dedicated Hosts and Dedicated Hosts Reservations.
+
+<h3> Spot Instances </h3> 
+
+Spot Instances are ideal for workloads with flexible start and end times, or that can withstand interruptions. Spot Instances use unused Amazon EC2 computing capacity and offer us cost savings at up to 90% off of On-Demand prices.
+The are highly cost effective but these instances can be taken down by AWS and assigned it to the next high bid client.
+
+<h3>Scalability </h3> 
+Amazon EC2 Auto Scaling helps us maintain application availability and allows us to automatically add or remove EC2 instances according to the conditions we define. 
+As a result, we pay for only the resources we use. We don’t have to worry about a lack of computing capacity to meet our customers needs.
+
+
+<h3> AWS EC2 Autos Scaling  </h3> 
+When we access a website that wouldn’t load and frequently timed out, the website might have received more requests than it was able to handle (overloaded). 
+Amazon EC2 Auto Scaling enable us to automatically add or remove Amazon EC2 instances in response to changing application demand. By automatically scaling our instances in and out as needed.
+
+There are 2 type of autocaling is being used by AWS EC2 Autoscaling. 
+
+- Predictive Scaling responsds to predictive demand.
+- Dynamic Scaling responds to demand.
+
+
+
+
+
 
 
 
