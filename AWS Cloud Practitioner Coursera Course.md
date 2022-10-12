@@ -180,7 +180,7 @@ We pay for only the instances we use, when we use them. We now have a cost-effec
 
 Elastic Load Balancing is the AWS service that automatically distributes incoming application traffic across multiple resources. So therefore we can utilize maximum (optimum) use of our resources by distributing the workloads to across multiple instances.
 
-A load balancer acts as a single point of contact for all incoming web traffic to your Auto Scaling group. This means that as you add or remove Amazon EC2 instances in response to the amount of incoming traffic, these requests route to the load balancer first. Then, the requests spread across multiple resources that will handle them. For example, if you have multiple Amazon EC2 instances, Elastic Load Balancing distributes the workload across the multiple instances so that no single instance has to carry the bulk of it. 
+A load balancer acts as a single point of contact for all incoming web traffic to our Auto Scaling group. This means that as we add or remove Amazon EC2 instances in response to the amount of incoming traffic, these requests route to the load balancer first. Then, the requests spread across multiple resources that will handle them. For example, if we have multiple Amazon EC2 instances, Elastic Load Balancing distributes the workload across the multiple instances so that no single instance has to carry the bulk of it. 
 
 ELB and Autoscaling together on EC2 can provide high performance and availability of our applications.
 
@@ -208,7 +208,7 @@ In Amazon SNS, subscribers can be web servers, email addresses, AWS Lambda funct
 
 <h3> Amazon Simple Queue Service (Amazon SQS)  </h3> 
 
-Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available. In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
+Using Amazon SQS, we can send, store, and receive messages between software components, without losing messages or requiring other services to be available. In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
 
 
 
