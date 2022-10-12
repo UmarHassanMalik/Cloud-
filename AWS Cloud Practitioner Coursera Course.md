@@ -5,7 +5,7 @@
 
 <h3> Cloud Computing </h3>
 
-Cloud computing is on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider such as AWS, Azure, google cloud.
+Cloud computing is on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, we can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider such as AWS, Azure, google cloud.
 
 AWS offers numerous services which are required commonly across all the businesses. For example My SQL, Mongo DB databases.
 
@@ -38,7 +38,7 @@ It is a private cloud deployment. Resources are deployed on premises by using vi
 <h3> Advantages of Cloud Computing </h3>
 
 <h3> Accessability </h3>
-We can deploy our application to different parts of the world .If we are located in a different part of the world than your customers, customers are able to access your applications with minimal delays.
+We can deploy our application to different parts of the world .If we are located in a different part of the world than our customers, customers are able to access our applications with minimal delays.
 
 <h3> Better Performance & Felxibility </h3>
 flexibility provides us with more time to experiment and innovate. When computing in data centers, it may take weeks to obtain new resourceswhich we need. Cloud computing enables us to access new resources within short time.
@@ -183,6 +183,32 @@ Elastic Load Balancing is the AWS service that automatically distributes incomin
 A load balancer acts as a single point of contact for all incoming web traffic to your Auto Scaling group. This means that as you add or remove Amazon EC2 instances in response to the amount of incoming traffic, these requests route to the load balancer first. Then, the requests spread across multiple resources that will handle them. For example, if you have multiple Amazon EC2 instances, Elastic Load Balancing distributes the workload across the multiple instances so that no single instance has to carry the bulk of it. 
 
 ELB and Autoscaling together on EC2 can provide high performance and availability of our applications.
+
+Handles the instances effectively on high and low demand periods.
+
+<h3> Application Architecture </h3>
+
+<h3> Monolithic Architecture </h3>
+
+In this architecture, applications are made of multiple components. The components communicate with each other to transmit data, fulfill requests, and keep the application running. 
+In monolithic applications we have an application with tightly coupled components. These components might include databases, servers, the user interface, business logic layer etc.
+
+In this architecture we have single point of failure if one component fails the whole application will fail.
+  
+<h3> Micro Services Architecture </h3>  
+
+A microservices architecture is a type of application architecture where the application is developed as a collection of services. It provides the framework to develop, deploy, and maintain microservices architecture diagrams and services independently.
+
+In a microservices approach, application components are loosely coupled. In this case, if a single component fails, the other components continue to work because they are communicating with each other. The loose coupling prevents the entire application from failing. 
+
+<h3> Amazon Simple Notification Service (Amazon SNS) </h3>
+Amazon Simple Notification Service (Amazon SNS) is a publish/subscribe service. Using Amazon SNS topics, a publisher publishes messages to subscribers. 
+
+In Amazon SNS, subscribers can be web servers, email addresses, AWS Lambda functions, or several other options.
+
+<h3> Amazon Simple Queue Service (Amazon SQS)  </h3> 
+
+Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available. In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
 
 
 
