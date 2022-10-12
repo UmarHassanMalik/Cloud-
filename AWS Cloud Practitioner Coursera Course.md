@@ -40,7 +40,16 @@ It is a private cloud deployment. Resources are deployed on premises by using vi
 <h3> Accessability </h3>
 We can deploy our application to different parts of the world .If we are located in a different part of the world than your customers, customers are able to access your applications with minimal delays.
 
+<h3> Better Performance & Felxibility </h3>
+flexibility provides us with more time to experiment and innovate. When computing in data centers, it may take weeks to obtain new resourceswhich we need. Cloud computing enables us to access new resources within short time.
 
+<h3> Capacity Guess </h3>
+We dont need to speculate that how much infrastructure capacity we will need before deploying an application.
+For instance, we can launch Amazon EC2 instances when needed, and pay only for the compute time that we use.
+
+
+<h3> No headache of maintaining and running Data centers </h3>
+Computing in data centers requires us to spend more money and time managing infrastructure and servers on the other hand, cloud computing allows us to focus less on these tasks and more on our applications and clients.
 
 
 
