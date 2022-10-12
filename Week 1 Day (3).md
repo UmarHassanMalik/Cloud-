@@ -14,6 +14,7 @@
 
 User generates a request through application (Client side). A virtual server (EC2 instance(s)) handles and responds to the request as per the business logic. A client is the way that the person interact with the server. 
 The business stake holders only pay of the resources they are using. So it’s a pay as you go. 
+
 <b>Cloud Computing: </b>
 
 -	Cloud computing is the on demand delivery of the IT services over the internet with the pay as you go pricing. 
