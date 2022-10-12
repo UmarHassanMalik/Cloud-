@@ -121,6 +121,12 @@ Exmple: We can handle a workload that requires large amounts of data to be prelo
 <h3> Accelerated computing instances </h3>
 
 Accelerated computing instances use hardware accelerators, or coprocessors, to perform some functions more efficiently than is possible in software running on CPUs
+Examples:  floating-point number calculations, graphics processing, and data pattern matching.
+
+<h3> Storage optimized instances </h3>
+
+Storage optimized instances are designed for workloads that require high, sequential read and write access to large datasets on local storage.
+Examples:  Distributed file systems, data warehousing applications, and high-frequency online transaction processing system.
 
 
 
