@@ -388,6 +388,8 @@ Amazon Simple Storage Service (Amazon S3) is a service that provides object-leve
 
 You can upload any type of file to Amazon S3, such as images, videos, text files, and so on. For example, you might use Amazon S3 to store backup files, media files for a website, or archived documents. Amazon S3 offers unlimited storage space. The maximum file size for an object in Amazon S3 is 5 TB.
   
+ ** Storage Classes**
+  
 - Amazon S3 Standard
 - Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
 - Amazon S3 Intelligent-Tiering
@@ -395,3 +397,21 @@ You can upload any type of file to Amazon S3, such as images, videos, text files
 - Amazon S3 Glacier Flexible Retrieval
 - Amazon S3 Glacier Deep Archive
 - Amazon S3 Outposts
+  
+ <h3> File Storage </h3>
+  
+In file storage, multiple clients (such as users, applications, servers, and so on) can access data that is stored in shared file folders. In this approach, a storage server uses block storage with a local file system to organize files. Clients access data through file paths.
+  
+  **Amazon Elastic File System ** is a scalable file system used with AWS Cloud services and on-premises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications. 
+  
+<h3>  Amazon EBS </h3>
+
+An Amazon EBS volume stores data in a single Availability Zone. 
+
+To attach an Amazon EC2 instance to an EBS volume, both the Amazon EC2 instance and the EBS volume must reside within the same Availability Zone.
+  
+ <h3> Amazon EFS </h3>
+
+Amazon EFS is a regional service. It stores data in and across multiple Availability Zones. 
+
+The duplicate storage enables you to access data concurrently from all the Availability Zones in the Region where a file system is located. Additionally, on-premises servers can access Amazon EFS using AWS Direct Connect.
