@@ -600,42 +600,45 @@ we can transfer up to 100 petabytes of data per Snowmobile, a 45-foot long rugge
 - Operations Perspective => helps us to enable, run, use, operate, and recover IT workloads to the level agreed upon with our business stakeholders.
 
 <h3> Migration Strategies</h3>
-- **Rehosting**
+** Rehosting**
 involves moving applications without changes. 
-- **Replatforming**
+**Replatforming**
  involves making a few cloud optimizations to realize a tangible benefit. Optimization is achieved without changing the core architecture of the application.
-- **Refactoring/re-architecting**
+**Refactoring/re-architecting**
 involves reimagining how an application is architected and developed by using cloud-native features. Refactoring is driven by a strong business need to add features, scale, or performance that would otherwise be difficult to achieve in the application’s existing environment.
-- **Repurchasing**
+**Repurchasing**
 involves moving from a traditional license to a software-as-a-service model. 
-- **Retaining**
+**Retaining**
 consists of keeping applications that are critical for the business in the source environment. This might include applications that require major refactoring before they can be migrated, or, work that can be postponed until a later time.
-- **Retiring**
+**Retiring**
 process of removing applications that are no longer needed.
 
 <h2> MODULE 10 </h2>
 
 <h3>AWS Well-Architected Framework</h3>
 design and operate reliable, secure, efficient, and cost-effective systems in the AWS Cloud. It provides a way for us to consistently measure our architecture against best practices and design principles and identify areas for improvement.
-<h3> **Operational excellence** </h3> 
+<h3> Operational excellence </h3> 
  is the ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.  
  
  
 
-<h3> **Cost optimization**  </h3>
+<h3> Cost optimization  </h3>
+  
 Cost optimization is the ability to run systems to deliver business value at the lowest price point. 
-<h3> **Sustainability** </h3>
+  
+<h3> Sustainability </h3>
+  
 Sustainability is the ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.
 
-<h3> **Security**  </h3>
+<h3> Security  </h3>
 The Security pillar is the ability to protect inf
-<h3> **Reliability**  </h3>
+<h3> Reliability  </h3>
     - Recover from infrastructure or service disruptions
 
     - Dynamically acquire computing resources to meet demand
 
     -  Mitigate disruptions such as misconfigurations or transient network issues
-<h3> **Performance efficiency** </h3>
+<h3> Performance efficiency</h3>
  Performance efficiency is the ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve. 
 
 
