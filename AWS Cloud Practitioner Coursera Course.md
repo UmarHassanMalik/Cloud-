@@ -328,18 +328,20 @@ A subnet is a section of a VPC in which you can group resources based on securit
 
 **Public subnets** contain resources that need to be accessible by the public, such as an online store’s website.
 
-**Private subnets** contain resources that should be accessible only through your private network, such as a database that contains customers’ personal information and order histories. 
+**Private subnets** contains resources that should be accessible only through your private network, such as a database that contains customers’ personal information and order histories. 
 
-**Network Traffic in a VPC**
+**Network Traffic in a VPC** 
+
 When a customer requests data from an application hosted in the AWS Cloud, this request is sent as a packet. A packet is a unit of data sent over the internet or a network. 
 
 It enters into a VPC through an internet gateway. Before a packet can enter into a subnet or exit from a subnet, it checks for permissions. These permissions indicate who sent the packet and how the packet is trying to communicate with the resources in a subnet.
 
 
 <h3>Network Access Control Lists (ACLs)</h3>
+
 A network access control list (ACL) is a virtual firewall that controls inbound and outbound traffic at the subnet level.
-**
-Stateless Packet Filtering**
+
+**Stateless Packet Filtering**
 Network ACLs perform stateless packet filtering. They remember nothing and check packets that cross the subnet border each way: inbound and outbound. 
 
 <h3>Security Groups</h3>
@@ -351,9 +353,45 @@ By default, a security group denies all inbound traffic and allows all outbound 
 Security groups perform stateful packet filtering. They remember previous decisions made for incoming packets.
 
 
+<h3> Domain Name System (DNS)</h3>
+
+Suppose that AnyCompany has a website hosted in the AWS Cloud. Customers enter the web address into their browser, and they are able to access the website. This happens because of Domain Name System (DNS) resolution. DNS resolution involves a DNS server communicating with a web server.
+
+<h3> Amazon Route 53 </h3>
+Amazon Route 53 is a DNS web service. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS. 
+
+Amazon Route 53 connects user requests to infrastructure running in AWS (such as Amazon EC2 instances and load balancers). It can route users to infrastructure outside of AWS.
 
 
+<h3> MODULE 5 </h3>
 
+<h3> Instance stores <h3>
+Block-level storage volumes behave like physical hard drives.
 
+An instance store provides temporary block-level storage for an Amazon EC2 instance. An instance store is disk storage that is physically attached to the host computer for an EC2 instance, and therefore has the same lifespan as the instance. When the instance is terminated, you lose any data in the instance store.
 
+<h3> Amazon Elastic Block Storage  <h3>
+Amazon Elastic Block Store (Amazon EBS) is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
+  
+<h3> Amazon EBS Snapshots <h3>
+An EBS snapshot is an incremental backup. This means that the first backup taken of a volume copies all the data. For subsequent backups, only the blocks of data that have changed since the most recent snapshot are saved.
 
+<h3> Object Storage </h3>
+  
+In object storage, each object consists of data, metadata, and a key.
+
+The data might be an image, video, text document, or any other type of file. Metadata contains information about what the data is, how it is used, the object size, and so on. An object’s key is its unique identifier
+  
+<h3> Amazon Simple Storage Service </h3>
+  
+Amazon Simple Storage Service (Amazon S3) is a service that provides object-level storage. Amazon S3 stores data as objects in buckets.
+
+You can upload any type of file to Amazon S3, such as images, videos, text files, and so on. For example, you might use Amazon S3 to store backup files, media files for a website, or archived documents. Amazon S3 offers unlimited storage space. The maximum file size for an object in Amazon S3 is 5 TB.
+  
+- Amazon S3 Standard
+- Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
+- Amazon S3 Intelligent-Tiering
+- Amazon S3 Glacier Instant Retrieval
+- Amazon S3 Glacier Flexible Retrieval
+- Amazon S3 Glacier Deep Archive
+- Amazon S3 Outposts
