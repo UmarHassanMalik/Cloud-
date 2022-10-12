@@ -273,6 +273,23 @@ An Availability Zone is a single data center or a group of data centers within a
 For example if our company’s data is stored in Brazil, and you have customers who live in UK. To provide content to these customers, you don’t need to move all the content to one of the UKs Regions.
 Instead of requiring your customers to get their data from Brazil, you can cache a copy locally at an edge location that is close to your customers in UK.
 
+<h3> Ways to Interact with AWS Services </h3>
+
+<h3> AWS Management Console </h3>
+
+The AWS Management Console is a web-based interface for accessing and managing AWS services
+  
+<h3> AWS Command Line Interface</h3>
+
+To save time when making API requests, you can use the AWS Command Line Interface (AWS CLI). AWS CLI enables you to control multiple AWS services directly from the command line within one tool. AWS CLI is available for users on Windows, macOS, and Linux. 
+
+<h3>Software development kits (SDKs)</h3>
+
+Another option for accessing and managing AWS services is the software development kits (SDKs). SDKs make it easier for you to use AWS services through an API designed for your programming language or platform. SDKs enable you to use AWS services with your existing applications or create entirely new applications that will run on AWS.
+
+<h3>AWS Elastic Beanstalk</h3>
+
+
 
 
 
