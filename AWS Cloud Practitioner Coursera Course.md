@@ -53,6 +53,7 @@ For instance, we can launch Amazon EC2 instances when needed, and pay only for t
 Computing in data centers requires us to spend more money and time managing infrastructure and servers on the other hand, cloud computing allows us to focus less on these tasks and more on our applications and clients.
 
 
+
 <h2> MODULE 2 </h2>
 
 
