@@ -210,6 +210,37 @@ In Amazon SNS, subscribers can be web servers, email addresses, AWS Lambda funct
 
 Using Amazon SQS, we can send, store, and receive messages between software components, without losing messages or requiring other services to be available. In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
 
+<h3> Serverless Computing </h3>
+The term “serverless” means that your code runs on servers, but you do not need to provision or manage these servers. With serverless computing, you can focus more on innovating new products and features instead of maintaining servers.
+
+Another benefit of serverless computing is the flexibility to scale serverless applications automatically. Serverless computing can adjust the applications' capacity by modifying the units of consumptions, such as throughput and memory. 
+
+The service on AWS is known as AWS lambda.
+
+<h3> AWS Lambda </h3>
+AWS Lambda is a service that lets you run code without needing to provision or manage servers. 
+
+While using AWS Lambda, you pay only for the compute time that you consume. Charges apply only when your code is running. You can also run code for virtually any type of application or backend service, all with zero administration.
+
+<h3> Working </h3>
+
+upload the code to Lambda. 
+
+Set code to trigger from an event source, such as AWS services, mobile applications, or HTTP endpoints.
+
+Lambda runs the code only when triggered.
+
+Pay only for the compute time that we use. In the previous example of resizing images, we would pay only for the compute time that we use when uploading new images. Uploading the images triggers Lambda to run code for the image resizing function.
+
+<h3> Containers </h3>
+Contaienrs are virtual instances at operating system level that provide us with a standard way to package our application's code and dependencies into a single object. We can also use containers for processes and workflows in which there are essential requirements for security, reliability, and scalability.
+
+In AWS, we can also build and run containerized applications.
+
+<h3> Amazon Elastic Container Service (Amazon ECS) </h3>
+
+Amazon Elastic Container Service (Amazon ECS) is a highly scalable, high-performance container management system that enables us to run and scale containerized applications on AWS. 
+
 
 
 
