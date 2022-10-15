@@ -9,7 +9,7 @@
 - More about what we are going to implement.
 
 
-<h3> What we consider </h3>
+<h3> What we consider? </h3>
 
 - Architecture 
 - Pricing 
@@ -100,7 +100,7 @@ Data storage arhcitecture manages data as objects
 ![image](https://user-images.githubusercontent.com/58930229/194781012-3e9a1269-1001-4059-a8c3-fde77fffd108.png)
 
 
-<h3> VPC Features </h3>
+<h3> Virtual Private Cloud (VPC) Features </h3>
 
 - AWS has default VPC with default settings.
 - Default DHCP 
