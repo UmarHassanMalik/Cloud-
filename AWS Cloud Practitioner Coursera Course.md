@@ -301,7 +301,7 @@ Application health monitoring
 
 <h3> AWS CloudFormation </h3>
 
-It facilitate us with infrastructure as code  environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
+It facilitate us with infrastructure as code  environment by writing lines of code in YAML/JSON format instead of using the AWS Management Console to individually provision resources.
 
 AWS CloudFormation provisions your resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications without having to perform manual actions or write custom scripts. It determines the right operations to perform when managing your stack and rolls back changes automatically if it detects errors.
 
@@ -453,7 +453,7 @@ Converting whole organizations into the Sub Parts or units for managing them ind
 
 
 <h3> Compliance</h3>
-<h3> 1. AWS Artifact
+<h3> 1. AWS Artifact </h3>
 - An audit or inspection will ensure that the company has met those standards.
 - provides on-demand access to AWS security and compliance reports and select online agreements. AWS Artifact consists of two main sections: 
    - AWS Artifact Agreements
