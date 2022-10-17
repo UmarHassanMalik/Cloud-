@@ -69,4 +69,29 @@ Looks for impact by when and how long by viewing screenshots, logs, and web requ
 
 <h2> CloudTrial </h2>
 
+![image](https://user-images.githubusercontent.com/58930229/196247342-e4ed1c3b-21ec-4403-ac93-8ca10301e8e3.png)
+
+AWS CloudTrail monitors and records account activity across your AWS infrastructure, giving you control over storage, analysis, and remediation actions.
+
+<h3> Benefits </h3>
+
+- Protect our organization from penalties using CloudTrail logs to prove compliance with regulations.
+- Take/improve security measures by recording user activity and events, and set up automated workflow rules with Amazon EventBridge.
+- Capture and consolidate user activity and API usage across AWS Regions and accounts on a single, centrally controlled platform.
+
+<h3> Different Use Cases </h3>
+
+
+<b> Inspect activity </b>
+
+Monitor, store, and validate activity events for authenticity and generate audit reports
+
+<b>Troubleshoot operational issues </b>
+
+Detect unauthorized access using the Who, What, and When information in CloudTrail Events. Respond with rules-based EventBridge alerts and automated workflows.
+
+<b>Identify security incidents </b>
+
+Continuously monitor API usage history using machine learning models to spot unusual activity in our AWS accounts, and finds root cause.
+
 
