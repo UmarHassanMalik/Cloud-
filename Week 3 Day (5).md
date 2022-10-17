@@ -52,8 +52,21 @@ We can visualize the experience of our application end users and validate design
 
 ![image](https://user-images.githubusercontent.com/58930229/195011187-f6cfabcb-4298-4449-bac8-697911242849.png)
 
+<h3> Use Cases </h3>
 
+<h3> Monitor Application Performance </h3>
+  
+  
+<h3> Perform Root Cause Analysis </h3>
+Analyze metrics logs and analytics & user requests in order to reduce mean time and speed up debugging.
 
+<h3> Optimize resources Efficiently</h3>
+Automate resource usage and planning while setting up some actions to perform with threshold when triggered it execute those actions which can be based on AI, machine learning, specifications.
+
+<h3>Test Website Impacts </h3>
+Looks for impact by when and how long by viewing screenshots, logs, and web requests at any point in time.
 
 
 <h2> CloudTrial </h2>
+
+
