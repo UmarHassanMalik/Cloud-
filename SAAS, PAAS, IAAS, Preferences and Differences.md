@@ -149,4 +149,10 @@ IaaS architecture aims to achieve optimal levels of efficiency, in the delivery 
 **Network:** Network as a Service (NaaS) provides networking components such as routers, switches, and bridges for the Vms.
 **Load balancers:** It provides load balancing capability at the infrastructure layer.
 
-
+<h3> IaaS Models </h3>
+ 
+IaaS is offered in three models: public, private, and hybrid cloud. The private cloud implies that the infrastructure resides at the customer-premise. In the case of public cloud, it is located at the cloud computing platform vendor's data center, and the hybrid cloud is a combination of the two in which the customer selects the best of both public cloud or private cloud.
+ 
+<b> Examples </b>
+ 
+AWS , Azure, Digital Ocean, GCE etc.
