@@ -51,13 +51,13 @@
 - SaaS relies on its agility to give the organization the ability to react and respond to market dynamics in near real-time.
 
 
-<b> SaaS Delivery Model Key Objectives Summary </b> 
+<h3> SaaS Delivery Model Key Objectives Summary </h3> 
 
 SaaS is a business and software delivery model that gives organizations the ability to offer their solutions in a low-friction, service-centric model that maximizes value for customers and providers. It relies on agility and operational efficiency as pillars of a business strategy that promotes growth, reach, and innovation.
 
-<b>SaaS A Service not a Product </b>
+<h3>SaaS A Service not a Product </h3>
 
-- In a service-centric model, we think more about how customers are onboarded to our service, how quickly they achieve value, and how rapidly we can introduce features that address customer needs. Details associated with how our service is built, operated, and managed are out of our customer’s view.
+In a service-centric model, we think more about how customers are onboarded to our service, how quickly they achieve value, and how rapidly we can introduce features that address customer needs. Details associated with how our service is built, operated, and managed are out of our customer’s view.
 
 <b> Example </b> 
 
