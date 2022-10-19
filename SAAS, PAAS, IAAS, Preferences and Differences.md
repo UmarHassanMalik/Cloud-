@@ -134,3 +134,19 @@ PaaS delivers a development platform with tools and resources that teams can acc
 
 
 <h3> IAAS </h3>
+
+<h3> Architecture <h3> 
+ 
+Application developers can test, collaborate, design, develop, and roll out apps from anywhere, using the online GUI within the PaaS architecture. The GUI, or Graphic User Interface, also allows teams to streamline operations and work on multiple development projects simultaneously.
+ 
+IaaS architecture aims to achieve optimal levels of efficiency, in the delivery of computing services to end users. This requires an architectural design that provides a highly available pool of cloud based IT resources and which also adequately delivers its resources in an elastic or scalable manner, especially during times of peak demand.
+ 
+
+ <h3> Services of IaaS </h3>
+ 
+**Compute:** Computing as a Service includes virtual central processing units and virtual main memory for the Vms that is provisioned to the end- users.
+**Storage:** IaaS provider provides back-end storage for storing files.
+**Network:** Network as a Service (NaaS) provides networking components such as routers, switches, and bridges for the Vms.
+**Load balancers:** It provides load balancing capability at the infrastructure layer.
+
+
