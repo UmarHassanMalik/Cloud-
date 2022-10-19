@@ -1,7 +1,7 @@
 
 <h3> SAAS </h3> 
 
-<h3> SAAS Business Model <h3>
+<h3> SAAS Business Model </h3>
  
 Running a business in a software as a service (SaaS) model based on goals and scope, can be difficult to define. The terminology and patterns that are used to distinguish SaaS vary based on their origin.
 
