@@ -93,6 +93,8 @@ We can manage tenents (profiles) to distribute and partition tenant data, applyi
 
 <h3> Conclusion </h3>
 
+SaaS emphasis on the creating an environment that lets us manage and operate all of our SaaS tenants through a unified experience. This connects to the core idea that SaaS is first and foremost a business model. The SaaS architecture you build is meant to promote these foundational business goals.
+
 
 
 <h3> PAAS </h3>
