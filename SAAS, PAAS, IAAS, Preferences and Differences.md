@@ -14,7 +14,7 @@
 
 <h3> Key Business Objectives to Adopt a SAAS delivery Model </h3>
 
-![image](https://freeimage.host/i/tvHuS4)
+[![tvHuS4.md.png](https://iili.io/tvHuS4.md.png)](https://freeimage.host/i/tvHuS4)
 
 
 <b> Agility </b>
