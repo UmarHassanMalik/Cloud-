@@ -1,4 +1,6 @@
 
+<h2> SAAS </h2>
+
 <h3> Understanding SAAS </h3> 
 
 - SaaS can be used to define a service, business or delivery model. The problem is what it means to be SaaS is not unviversally understood. 
@@ -97,7 +99,7 @@ SaaS emphasis on the creating an environment that lets us manage and operate all
 
 
 
-<h3> PAAS </h3>
+<h2> PAAS </h2>
 
 <h3> Understanding PaaS </h3>
 
@@ -133,7 +135,7 @@ PaaS delivers a development platform with tools and resources that teams can acc
 
 
 
-<h3> IAAS </h3>
+<h2> IAAS </h2>
 
 Infrastructure as a service is a type of cloud computing service that offers essential compute, storage, and networking resources on demand, on a pay-as-you-go basis.
 
