@@ -135,7 +135,10 @@ PaaS delivers a development platform with tools and resources that teams can acc
 
 <h3> IAAS </h3>
 
-<h3> Architecture <h3> 
+Infrastructure as a service is a type of cloud computing service that offers essential compute, storage, and networking resources on demand, on a pay-as-you-go basis.
+
+
+<h3> Architecture </h3> 
  
 Application developers can test, collaborate, design, develop, and roll out apps from anywhere, using the online GUI within the PaaS architecture. The GUI, or Graphic User Interface, also allows teams to streamline operations and work on multiple development projects simultaneously.
  
@@ -148,6 +151,12 @@ IaaS architecture aims to achieve optimal levels of efficiency, in the delivery 
 **Storage:** IaaS provider provides back-end storage for storing files.
 **Network:** Network as a Service (NaaS) provides networking components such as routers, switches, and bridges for the Vms.
 **Load balancers:** It provides load balancing capability at the infrastructure layer.
+
+<h3> Working </h3>
+
+IaaS works in a way that it identifies a virtual or physical infrastructure available at a cloud provider. It links the customer to the cloud provider and offers several services such as virtualization, network.
+
+The organization identifies its need and requests the appropriate service. The user then pays for the resource and IaaS also offers billing management services.
 
 <h3> IaaS Models </h3>
  
