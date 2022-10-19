@@ -95,7 +95,7 @@ We can manage tenents (profiles) to distribute and partition tenant data, applyi
 
 <h3> Conclusion </h3>
 
-SaaS emphasis on the creating an environment that lets us manage and operate all of our SaaS tenants through a unified experience. This connects to the core idea that SaaS is first and foremost a business model. The SaaS architecture you build is meant to promote these foundational business goals.
+SaaS emphasis on the creating an environment that lets us manage and operate all of our SaaS tenants through a unified experience. This connects to the core idea that SaaS is first and foremost a business model. The SaaS architecture we build is meant to promote these foundational business goals.
 
 
 
@@ -156,7 +156,7 @@ IaaS architecture aims to achieve optimal levels of efficiency, in the delivery 
 
 <h3> Working </h3>
 
-IaaS works in a way that it identifies a virtual or physical infrastructure available at a cloud provider. It links the customer to the cloud provider and offers several services such as virtualization, network.
+IaaS points to an infrastructure either physical or virtual that is provided by the cloud provider. IaaS has lots of resources such as network, server, storage, virtualization, so it depends upon the customer to choose its resources wisely and as per need. Apart from the management of the infrastructures, it provides billing management too, where the user is billed as per the services rendered.
 
 The organization identifies its need and requests the appropriate service. The user then pays for the resource and IaaS also offers billing management services.
 
