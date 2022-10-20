@@ -188,7 +188,7 @@ SaaS model is best suited for such project.
 - Multi user access on scale and custom plans.
 - Maintenance is usually included in monthly contract costs. New features & IT Integration costs are additional cost but only a fraction of overall cost is charged to the customer. 
 - Infrastructure and development cost is absorbed in Monthly Contract costs.
-- **Operation costs and overheads**: Our existing teams can be taught to run and manage the platform. This means you do not incur any operational overheads.
+- **Operation costs and overheads**: Our existing teams can be taught to run and manage the platform. This means we do not incur any operational overheads.
 - Provide secure platforms that are usually pre-tested by QA specialists and/or third parties. The subscriber has no control or access to security features. 
 - Ownership.
 - The uploading, encoding and broadcasting of live & on-demand videos through a CDN and a customizable video player.
