@@ -166,12 +166,19 @@ IaaS is offered in three models: public, private, and hybrid cloud. The private 
  
 <b> Examples </b>
  
-AWS , Azure, Digital Ocean, GCE etc.
+AWS , Azure, Digital Ocean, GCP etc.
 
 
 
 <h2> Personal Project </h2>
 
+<b>  Video Streaming & hosting, App </b>
+
+<b> Functionality </b>
+Provides comprehensive live streaming and online video hosting services. Streamers maintain their 100% ownership of their content.
+
+<h3> Preferred Service Model for the Project </h3>
+
+SaaS model is best suited for such project.  
 
 
-<h3> Selecting Service Model for the Project </h3>
