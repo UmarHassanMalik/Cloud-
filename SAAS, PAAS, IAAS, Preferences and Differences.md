@@ -175,10 +175,28 @@ AWS , Azure, Digital Ocean, GCP etc.
 <b>  Video Streaming & hosting, App </b>
 
 <b> Functionality </b>
+
 Provides comprehensive live streaming and online video hosting services. Streamers maintain their 100% ownership of their content.
 
 <h3> Preferred Service Model for the Project </h3>
 
 SaaS model is best suited for such project.  
+
+<h3> Reasons for Opting this Model </h3>
+
+- Adoptable for this kind of business needs and set of goals.
+- Multi user access on scale and custom plans.
+- Maintenance is usually included in monthly contract costs. New features & IT Integration costs are additional cost but only a fraction of overall cost is charged to the customer. 
+- Infrastructure and development cost is absorbed in Monthly Contract costs.
+- **Operation costs and overheads**: Our existing teams can be taught to run and manage the platform. This means you do not incur any operational overheads.
+- Provide secure platforms that are usually pre-tested by QA specialists and/or third parties. The subscriber has no control or access to security features. 
+- Ownership.
+- The uploading, encoding and broadcasting of live & on-demand videos through a CDN and a customizable video player.
+- Management of users and their access rights to videos with temporary access tokens.
+- Monetization of content by subscription, by unit and associated promotion mechanisms (trial period, discount coupon.
+- Management of orders, automatic invoicing and payment methods.
+- For Multi tenant and microservices based environment we have PAAS open source tools for development of SaaS microservices, workflows & automation to meet our customer demands such as Kubernetes, openshift, docker etc.
+- An API system (Rest and GraphQL) allowing interfacing with third-party software and all types of front-end interfaces and partner platforms.
+- SaaS provides beneficial cost savings since it usually resides in a shared or multi-tenant environment, where the hardware and software license costs are low compared with the traditional model.   
 
 
