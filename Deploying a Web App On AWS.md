@@ -9,6 +9,7 @@
 By Using AWS Elastic Beanstalk. It provisions and manages the underlying infrastructure such as AWS EC2 instances and their components which are web servers, operating system, frameworks and languages for us. 
 
  <b>  Using Dynamo DB </b>
+ 
 Amazon DynamoDB will fully manage, serverless, key-value NoSQL database designed to run high-performance applications at any scale. It will offer us built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data import and export tools in this use case scnerio.    
 
 <b> AWS Autoscaling in EBS </b>
