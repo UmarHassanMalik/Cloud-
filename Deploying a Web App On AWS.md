@@ -28,8 +28,9 @@ about laws in Pakistan. Client will have job table showing lawyer status, title,
 of legal issue post.
   
  <h3> Application Stack/Technologies </h3>
-  
-- PHP/Laravel.
+  We can automate with bash scripting on EC2 and setting up environment for this stack.
+ 
+- PHP/Laravel (8.0).
 - JavaScript (HTML,CSS).
 - MySQL.  
   
@@ -86,4 +87,4 @@ It will help us in:
     
     
     
-<img width="1465" alt="Drawing (1)" src="https://user-images.githubusercontent.com/58930229/199448638-74dbb2ba-19f6-4a04-82d6-695d38220f2e.png">
+<img width="1465" alt="image" src="https://user-images.githubusercontent.com/58930229/199448638-74dbb2ba-19f6-4a04-82d6-695d38220f2e.png">
