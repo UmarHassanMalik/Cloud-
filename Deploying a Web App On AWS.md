@@ -2,7 +2,7 @@
 <h3> Use Case of Deploying a Web App on AWS </h3>
   
   
- <h3> Application Introduction & Features <h3>
+ <h3> Application Introduction & Features </h3>
   
 - Lawyer hiring application is an online web application which will be accessible to 
 everyone that will aid client to hire a lawyer online. 
