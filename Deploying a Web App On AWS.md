@@ -10,6 +10,8 @@ everyone that will aid client to hire a lawyer online.
 - The aim of this project is to make lawyer hiring process online, simple, fair, accessible to everyone and easy to manage client documents.
   
 - Lawyer and client will discuss their case in case message board. They can share documents and communicate through voice and text chat. 
+
+- The scope of this web application is global so our clients are distributed across the regions mainly located in the US and Europe so we are opting out those regions and availability zones 
   
 <h3> Brief Summary </h3>
   
