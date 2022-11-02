@@ -25,7 +25,7 @@ profile information (name, password etc.). Application will provide basic inform
 about laws in Pakistan. Client will have job table showing lawyer status, title, action, date 
 of legal issue post.
   
- <h3> Application Stack/Technologies <h3>
+ <h3> Application Stack/Technologies </h3>
   
 - PHP/Laravel.
 - JavaScript (HTML,CSS).
@@ -33,7 +33,7 @@ of legal issue post.
   
   
   
-  <h3>Services Use cases scnerio in our Project & Environment </h3> 
+  <h3>Services Use cases scnerios in our Project & Environment </h3> 
     
  <b>  Using AWS Elastic Beanstalk </b>
  
