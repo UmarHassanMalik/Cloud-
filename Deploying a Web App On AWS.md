@@ -34,7 +34,6 @@ of legal issue post.
 - MySQL.  
   
   
-  
   <h3>Services Use cases scnerios in our Project & Environment </h3> 
     
  <b>  Using AWS Elastic Beanstalk </b>
