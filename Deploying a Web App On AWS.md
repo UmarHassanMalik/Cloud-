@@ -1,5 +1,5 @@
 
-<h3> Use Case of Deploying a Web App on AWS (Express, React, NodeJS, NoSQL based App) </h3>
+<h3> Use Case of Deploying a Web App on AWS (JS, PHP (Laravel), MySQL based Web App) </h3>
   
   
   <h3> Environment </h3> 
@@ -8,9 +8,10 @@
  
 By Using AWS Elastic Beanstalk. It provisions and manages the underlying infrastructure such as AWS EC2 instances and their components which are web servers, operating system, frameworks and languages for us. 
 
- <b>  Using Dynamo DB </b>
+ <b>Why are we Using Amazon RDS </b>
  
-Amazon DynamoDB will fully manage, serverless, key-value NoSQL database designed to run high-performance applications at any scale. It will offer us built-in security, continuous backups, automated multi-Region replication, in-memory caching, and data import and export tools in this use case scnerio.    
+As we are using MySQL so we have stored relational and structured data stored in our database. So Amazon RDS is best suited for the apps which have structured/relational data is being stored. 
+  
 
 <b> AWS Autoscaling in EBS </b>
 
