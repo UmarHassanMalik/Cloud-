@@ -39,4 +39,4 @@
 
 19- [SAAS, PAAS, IAAS, Project Preferences & Differences ](https://github.com/UmarHassanMalik/Cloud-/blob/main/SAAS,%20PAAS,%20IAAS,%20Preferences%20and%20Differences.md)
 
-20- [Deploying a WebApp of on Cloud ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Deploying%20a%20Web%20App%20On%20AWS.md)
+20- [Deploying a WebApp of on Cloud (Use-Case) ](https://github.com/UmarHassanMalik/Cloud-/blob/main/Deploying%20a%20Web%20App%20On%20AWS.md)
