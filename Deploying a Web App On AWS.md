@@ -35,9 +35,9 @@ of legal issue post.
 - MySQL.  
   
   
-  <h3>Services Use cases scnerios in our Project & Environment </h3> 
+<h3>Services Use cases scnerios in our Project & Environment </h3> 
     
- <b>  Using AWS Elastic Beanstalk </b>
+<b>  Using AWS Elastic Beanstalk </b>
  
 In this project LHS we are using AWS Elastic Beanstalk. It provisions and manages the underlying infrastructure such as AWS EC2 instances and their components which are web servers, operating system, frameworks and languages for us. First of all on an initial request by the user (In this case we have "Lawyer and Client") to the web server. The users will be directed to one the EC2 instance will be decided by the load balancer based on resources accomodaton, thresholds, region as configured by us etc.
 
@@ -51,7 +51,7 @@ In this project it will help us in:
 - Choosing Amazon RDS, instead of worrying about self-managing our databases, which can be time consuming, complex, and expensive.  
 - We can even opt out Amazon aurora with MySQL compatiability as it has numerous advantages over traditional databases and services with high availability scalabilty,  Multi-AZ availability backed by a 99.99% uptime SLA and global replication with cross-Region, disaster recovery, fully managed, migration options & less cost as compared to traditional databases.
 
-  <h3> S3 Buckets </h3>
+ <h3> S3 Buckets </h3>
   
 As mentioned above clients and lawyers will exchange documents, photos/videos, audios on CMB (Case Message Board), this data can be stored in S3 bucket.
 We can fetch and store the exclusive data of the user (Clients/Lawyers) to S3 buckets without compromising their privacy.    
