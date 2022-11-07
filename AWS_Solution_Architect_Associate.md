@@ -1,4 +1,4 @@
-<h3> AWS Solution Architect Associate </h3>
+<h3> AWS Solution Architect Associate (Course) </h3>
 
 ![image](https://user-images.githubusercontent.com/58930229/194708335-30cc1b79-9ee3-40c5-9a37-fe30db7f1c31.png)
 
